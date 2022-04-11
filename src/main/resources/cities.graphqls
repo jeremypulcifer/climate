@@ -1,0 +1,66 @@
+
+type ClimateMonth {
+    month: Int
+    maxTemp: Float
+    minTemp: Float
+    meanTemp: Float
+    maxTempF: Float
+    minTempF: Float
+    meanTempF: Float
+    raindays: Float
+    rainfall: Float
+}
+
+type Climate {
+    raintype: String
+    raindef: String
+    rainunit: String
+    datab: Float
+    datae: Float
+    tempb: Float
+    tempe: Float
+    rdayb: Float
+    rdaye: Float
+    rainfallb: Float
+    rainfalle: Float
+    climatefromclino: String
+    climateMonth: [ClimateMonth]
+}
+
+type City {
+    id: String
+    lang: String
+    cityName: String
+    country: String
+    cityLatitude: Float
+    cityLongitude: Float
+    cityId: Int
+    isCapital: Boolean
+    stationName: String
+    tourismURL: String
+    tourismBoardName: String
+    isDep: Boolean
+    timeZone: String
+    isDST: String
+    climate: Climate
+}
+
+type SimilarCity {
+    cityName: String
+    country: String
+    highestAvgTemperature: Float
+    lowestAvgTemperature: Float
+    avgTemperature: Float
+    lowestTemperature: Float
+    highestTemperature: Float
+    rainDays: Float
+    rainfall: Float
+}
+
+type Query {
+    city(id: ID!): City
+    cityByName(name: String!): City?
+    cityByNameContains(name: String!): [City?]
+    similar(cityId: ID! outliers: Int): [SimilarCity]
+    compareCities(cityIds: [ID!]!): [SimilarCity]
+}
