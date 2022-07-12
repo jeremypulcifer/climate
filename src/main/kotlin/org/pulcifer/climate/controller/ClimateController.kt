@@ -19,8 +19,8 @@ class ClimateController {
     }
 
     @GetMapping("/city")
-    fun cityByName(@RequestParam(value = "name") name: String?): City? {
-        return svc!!.getCityByName(name)
+    fun cityByName(@RequestParam(value = "name") name: String?): List<City?> {
+        return svc!!.citiesContaining(name)
     }
 
 //    @GetMapping("/citiesContaining")
@@ -44,7 +44,7 @@ class ClimateController {
     }
 
     @GetMapping("/citiesCompare")
-    fun compareCities(@RequestParam(value = "cityId") cityIds: List<Int>): List<SimilarCity?>? {
-        return svc!!.compareCities(cityIds)
+    fun compareCities(@RequestParam(value = "cityId") cityId: Int, @RequestParam(value = "cityIds") cityIds: List<Int>): List<SimilarCity?>? {
+        return svc!!.compareCities(cityId, cityIds)
     }
 }

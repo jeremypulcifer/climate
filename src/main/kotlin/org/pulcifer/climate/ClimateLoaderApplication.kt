@@ -6,8 +6,6 @@ import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.SpringApplication
-import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
 import java.lang.Exception
 
 /**
@@ -20,7 +18,7 @@ import java.lang.Exception
  */
 
 //@SpringBootApplication
-class ClimateKotlinLoaderApplication: CommandLineRunner {
+class ClimateLoaderApplication: CommandLineRunner {
 	@Autowired
 	var cityService: ClimateLoadService? = null
 	var log: Logger = LoggerFactory.getLogger(javaClass)
@@ -32,6 +30,6 @@ class ClimateKotlinLoaderApplication: CommandLineRunner {
 	}
 
 	fun main(args: Array<String>) {
-		SpringApplication.run(ClimateKotlinLoaderApplication::class.java, *args)
+		SpringApplication.run(ClimateLoaderApplication::class.java, *args)
 	}
 }

@@ -17,7 +17,7 @@ class CityQueryResolver : GraphQLQueryResolver {
         return svc!!.getCityById(id)
     }
 
-    fun cityByName(name: String?): City? {
+    fun cityByName(name: String?): List<City>? {
         return svc!!.getCityByName(name)
     }
 
@@ -25,11 +25,15 @@ class CityQueryResolver : GraphQLQueryResolver {
         return svc!!.citiesContaining(name)
     }
 
+    fun cityByCountryNameContains(name: String?): List<City?> {
+        return svc!!.citiesByCountryNameContains(name)
+    }
+
     fun similar(cityId: Int, outliers: Int? = 0): List<SimilarCity>? {
         return svc!!.retrieveSimilarCities(cityId, outliers)
     }
 
-    fun compareCities(cityIds: List<Int>): List<SimilarCity>? {
-        return svc!!.compareCities(cityIds)
+    fun compareCities(cityId: Int, cityIds: List<Int>): List<SimilarCity>? {
+        return svc!!.compareCities(cityId, cityIds)
     }
 }

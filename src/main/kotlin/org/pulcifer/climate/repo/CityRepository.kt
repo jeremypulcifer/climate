@@ -9,5 +9,6 @@ interface CityRepository : MongoRepository<City?, String?> {
     fun findByCityIdNot(cityId: Int?): Optional<List<City?>>
     fun findByCityIdIn(cityIds: List<Int?>?): Optional<List<City?>>
     fun findByCityName(cityName: String?): Optional<City?>
-    fun findByCityNameContaining(cityName: String?): Optional<List<City?>?>
+    fun findByCityNameContaining(cityName: String?): Optional<List<City>>
+    fun findByCountryContaining(name: String?): Optional<List<City>>
 }

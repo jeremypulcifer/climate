@@ -6,14 +6,17 @@ import org.pulcifer.climate.range.ClimateRangeType
 import java.math.BigDecimal
 import java.util.stream.Collectors
 import java.math.MathContext
-import java.util.HashMap
 import java.math.RoundingMode
+import java.util.*
 import java.util.function.Function
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-class SimilarCity(c: City) {
+class SimilarCity(c: City, diff: Int) {
     @JsonIgnore
     private val city: City
+
+    @JsonIgnore
+    val diff: Int
 
     @JsonIgnore
     private val climateData: Map<ClimateRangeType, List<BigDecimal?>>
@@ -36,14 +39,16 @@ class SimilarCity(c: City) {
         return values.sortedBy{it}
     }
 
+    val cityId: Int?
+        get() = city.cityId
     val cityName: String?
         get() = city.cityName
     val country: String?
         get() = city.country
     val highestAvgTemperature: BigDecimal?
-        get() = if (avgTemperatures.isEmpty()) BigDecimal.ZERO else avgTemperatures[avgTemperatures.size - 1]
+        get() = getMax(avgTemperatures)
     val lowestAvgTemperature: BigDecimal?
-        get() = if (avgTemperatures.isEmpty()) BigDecimal.ZERO else avgTemperatures[0]
+        get() = getMin(avgTemperatures)
     val avgTemperature: BigDecimal
         get() = if (avgTemperatures.isEmpty()) BigDecimal.ZERO else avgTemperatures.stream()
             .reduce(BigDecimal.ZERO) { obj: BigDecimal?, augend: BigDecimal? -> obj!!.add(augend) }!!
@@ -53,15 +58,26 @@ class SimilarCity(c: City) {
                 ), context
             )
     val lowestTemperature: BigDecimal?
-        get() = if (lowestTemperatures.isEmpty()) BigDecimal.ZERO else lowestTemperatures[0]
+        get() = getMin(lowestTemperatures)
     val highestTemperature: BigDecimal?
-        get() = if (highestTemperatures.isEmpty()) BigDecimal.ZERO else highestTemperatures[highestTemperatures.size - 1]
+        get() = getMax(highestTemperatures)
     val rainDays: BigDecimal?
         get() = climateData[ClimateRangeType.RAIN_DAYS]!!
             .stream().reduce(BigDecimal.ZERO) { obj: BigDecimal?, augend: BigDecimal? -> obj!!.add(augend) }
     val rainfall: BigDecimal?
         get() = climateData[ClimateRangeType.RAINFALL]!!
             .stream().reduce(BigDecimal.ZERO) { obj: BigDecimal?, augend: BigDecimal? -> obj!!.add(augend) }
+
+    private fun getMax(l: List<BigDecimal?>): BigDecimal? {
+        if (l.isEmpty()) return BigDecimal.ONE
+        Collections.reverse(l)
+        return l[0]
+    }
+
+    private fun getMin(l: List<BigDecimal?>): BigDecimal? {
+        if (l.isEmpty()) return BigDecimal.ONE
+        return l[0]
+    }
 
     companion object {
         private val context = MathContext(4, RoundingMode.HALF_UP)
@@ -82,6 +98,7 @@ class SimilarCity(c: City) {
         climateData[ClimateRangeType.RAIN_DAYS] = extractListForRange(c) { m: ClimateMonth? -> m?.raindays }
         climateData[ClimateRangeType.RAINFALL] = extractListForRange(c) { m: ClimateMonth? -> m?.rainfall }
         this.city = c
+        this.diff = diff
         this.climateData = climateData
     }
 }
