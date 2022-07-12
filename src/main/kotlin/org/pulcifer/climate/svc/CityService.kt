@@ -23,10 +23,6 @@ class CityService {
     fun citiesContaining(cityName: String?) = repo!!.findByCityNameContaining(cityName).get()
 
     fun retrieveSimilarCities(cityId: Int?, numOfOutliersToRemove: Int?): List<SimilarCity> {
-//        return retrieveCitiesByClimateRanges(
-//            ClimateRanges(repo!!.findByCityId(cityId).get(), numOfOutliersToRemove), cityId
-//        )
-
         val similarCities = retrieveCitiesSortByClimateDifferences(cityId)
         return similarCities.subList(0,99)
     }
