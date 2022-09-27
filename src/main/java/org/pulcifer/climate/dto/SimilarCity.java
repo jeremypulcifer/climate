@@ -29,6 +29,7 @@ public class SimilarCity {
 
     @JsonIgnore
     private City city;
+    private Integer diff;
     @JsonIgnore
     private Map<ClimateRangeType, List<BigDecimal>> climateData;
     @JsonIgnore
@@ -45,24 +46,34 @@ public class SimilarCity {
     public SimilarCity(City c) {
         Map<ClimateRangeType, List<BigDecimal>> climateData = new HashMap<>();
         climateData.put(AVG_TEMPERATURE, extractListForRange(c, (m) -> m.getMinTempF().add(m.getMaxTempF()).divide(TWO, context)));
-        climateData.put(LOWEST_TEMPERATURE, extractListForRange(c, (m) -> m.getMinTempF()));
-        climateData.put(HIGHEST_TEMPERATURE, extractListForRange(c, (m) -> m.getMaxTempF()));
-        climateData.put(RAIN_DAYS, extractListForRange(c, (m) -> m.getRaindays()));
-        climateData.put(RAINFALL, extractListForRange(c, (m) -> m.getRainfall()));
-        this.city = city;
+        climateData.put(LOWEST_TEMPERATURE, extractListForRange(c, ClimateMonth::getMinTempF));
+        climateData.put(HIGHEST_TEMPERATURE, extractListForRange(c, ClimateMonth::getMaxTempF));
+        climateData.put(RAIN_DAYS, extractListForRange(c, ClimateMonth::getRaindays));
+        climateData.put(RAINFALL, extractListForRange(c, ClimateMonth::getRainfall));
+        this.city = c;
         this.climateData = climateData;
+    }
+
+    public SimilarCity setDiffScore(Integer diff) {
+        this.diff = diff;
+        return this;
     }
 
     private List<BigDecimal> extractListForRange(City city, Function<ClimateMonth, BigDecimal> getValue) {
         List<ClimateMonth> climateMonths = city.getClimate().getClimateMonth();
-        List<BigDecimal> values = climateMonths.stream().map(m -> getValue.apply(m)).collect(Collectors.toList());
+        List<BigDecimal> values = climateMonths.stream().map(getValue::apply).collect(Collectors.toList());
         Collections.sort(values);
         return values;
     }
 
     public String getCityName() { return city.getCityName(); }
+    public Integer getCityId() { return city.getCityId(); }
+    public Integer getDiff() { return diff; }
     public String getCountry() {
         return city.getCountry();
+    }
+    public Integer getPopulation() {
+        return city.getPopulation();
     }
     public BigDecimal getHighestAvgTemperature() {
         return getAvgTemperatures().get(getAvgTemperatures().size() - 1);

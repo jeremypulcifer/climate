@@ -28,6 +28,7 @@ public class City {
     String timeZone;
     String isDST;
     Climate climate;
+    private Integer population;
 
     public City() {}
 
@@ -74,6 +75,14 @@ public class City {
         if (cityId == null || cityB.getCityId() == null)
             return false;
         return cityId.equals(cityB.getCityId());
+    }
+
+    public Integer getPopulation() {
+        return population;
+    }
+
+    public void setPopulation(Integer population) {
+        this.population = population;
     }
 }
 

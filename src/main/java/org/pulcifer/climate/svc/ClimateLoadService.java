@@ -11,10 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.io.IOException;
-import java.io.StringReader;
-import java.util.HashSet;
-import java.util.Set;
+import java.io.*;
+import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -48,10 +46,38 @@ public class ClimateLoadService {
     String citiesUrl = "https://worldweather.wmo.int/en/json/%s_en.json";
     String cityListUrl = "https://worldweather.wmo.int/en/json/full_city_list.txt";
 
+    Map<Integer, Integer> populations = new HashMap<>();
+
+
+    private void loadPopulations() {
+        String[] HEADERS = {"id", "population"};
+        ClassLoader classLoader = getClass().getClassLoader();
+        File file = new File(classLoader.getResource("cities_cities.csv").getFile());
+
+        try (Reader in = new FileReader(file)) {
+            Iterable<CSVRecord> records = CSVFormat.DEFAULT
+                    .withHeader(HEADERS)
+                    .withFirstRecordAsHeader()
+                    .parse(in);
+            for (CSVRecord record : records) {
+                Integer id = Integer.parseInt(record.get("id"));
+                Integer population = Integer.parseInt(record.get("population"));
+                populations.put(id, population);
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public Long loadCities() throws IOException, InterruptedException {
         // only execute if there are more than a smaller test set
         long existingCount = repo.count();
         if (existingCount > 100) return existingCount;
+
+        loadPopulations();
+
         String cityFile = new RestTemplate().getForObject(cityListUrl, String.class);
 
         String[] HEADERS = {"Country", "City", "CityId"};
@@ -70,7 +96,7 @@ public class ClimateLoadService {
         executorService.shutdown();
         // ok, this is lazy, but as the run takes a bit of time
         // I've not made it a priority to clean this up
-        executorService.awaitTermination(5L, TimeUnit.HOURS);
+        executorService.awaitTermination(5L, TimeUnit.MINUTES);
         // due to the limitations of the apache csv library, I need
         // to capture the exception case, as indicated by a city with
         // a cityId == 0, and discard.
@@ -90,6 +116,9 @@ public class ClimateLoadService {
         log.info("Getting climate data for id {}, {}/{}", csvRecord.get(2), csvRecord.get(0), csvRecord.get(1));
         City city = getCity(Integer.valueOf(csvRecord.get(2)));
         city.setCountry(csvRecord.get(0));
+        Integer population = populations.get(city.getCityId());
+        if (population != null)
+            city.setPopulation(population);
         return city;
     }
 
