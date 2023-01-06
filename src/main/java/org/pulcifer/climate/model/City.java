@@ -1,5 +1,6 @@
 package org.pulcifer.climate.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import org.pulcifer.climate.model.serialization.CityJsonDeserializer;
@@ -11,23 +12,24 @@ import java.math.BigDecimal;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonDeserialize(using = CityJsonDeserializer.class)
 @Document(collection = "city")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class City {
     @Id
     public String id;
-    String lang;
-    String cityName;
-    String country;
-    BigDecimal cityLatitude;
-    BigDecimal cityLongitude;
-    Integer cityId;
-    Boolean isCapital;
-    String stationName;
-    String tourismURL;
-    String tourismBoardName;
-    Boolean isDep;
-    String timeZone;
-    String isDST;
-    Climate climate;
+    private String lang;
+    private String cityName;
+    private String country;
+    private BigDecimal cityLatitude;
+    private BigDecimal cityLongitude;
+    private Integer cityId;
+    private Boolean isCapital;
+    private String stationName;
+    private String tourismURL;
+    private String tourismBoardName;
+    private Boolean isDep;
+    private String timeZone;
+    private String isDST;
+    private Climate climate;
     private Integer population;
 
     public City() {}
@@ -37,35 +39,20 @@ public class City {
     public void setCountry(String country) {
         this.country = country;
     }
-
     public String getId() {return this.id;}
-
     public String getLang() {return this.lang;}
-
     public String getCityName() {return this.cityName;}
-
     public String getCountry() {return this.country;}
-
     public BigDecimal getCityLatitude() {return this.cityLatitude;}
-
     public BigDecimal getCityLongitude() {return this.cityLongitude;}
-
     public Integer getCityId() {return this.cityId;}
-
     public Boolean getIsCapital() {return this.isCapital;}
-
     public String getStationName() {return this.stationName;}
-
     public String getTourismURL() {return this.tourismURL;}
-
     public String getTourismBoardName() {return this.tourismBoardName;}
-
     public Boolean getIsDep() {return this.isDep;}
-
     public String getTimeZone() {return this.timeZone;}
-
     public String getIsDST() {return this.isDST;}
-
     public Climate getClimate() {return this.climate;}
 
     public boolean equals(Object b) {
@@ -84,5 +71,12 @@ public class City {
     public void setPopulation(Integer population) {
         this.population = population;
     }
-}
 
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
+    }
+
+    public void setClimate(Climate climate) {
+        this.climate = climate;
+    }
+}

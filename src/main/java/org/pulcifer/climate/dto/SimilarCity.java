@@ -2,25 +2,14 @@ package org.pulcifer.climate.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.pulcifer.climate.model.City;
-import org.pulcifer.climate.model.ClimateMonth;
-import org.pulcifer.climate.range.ClimateRangeType;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Function;
-import java.util.stream.Collectors;
-
-import static org.pulcifer.climate.range.ClimateRangeType.AVG_TEMPERATURE;
-import static org.pulcifer.climate.range.ClimateRangeType.HIGHEST_TEMPERATURE;
-import static org.pulcifer.climate.range.ClimateRangeType.LOWEST_TEMPERATURE;
-import static org.pulcifer.climate.range.ClimateRangeType.RAINFALL;
-import static org.pulcifer.climate.range.ClimateRangeType.RAIN_DAYS;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class SimilarCity {
@@ -33,37 +22,24 @@ public class SimilarCity {
     @JsonIgnore
     private Map<ClimateRangeType, List<BigDecimal>> climateData;
     @JsonIgnore
-    public List<BigDecimal> getAvgTemperatures() { return climateData.get(AVG_TEMPERATURE); }
+    public List<BigDecimal> getAvgTemperatures() { return climateData.get(ClimateRangeType.AVG_TEMPERATURE); }
     @JsonIgnore
     public List<BigDecimal> getLowestTemperatures() {
-        return climateData.get(LOWEST_TEMPERATURE);
+        return climateData.get(ClimateRangeType.LOWEST_TEMPERATURE);
     }
     @JsonIgnore
     public List<BigDecimal> getHighestTemperatures() {
-        return climateData.get(HIGHEST_TEMPERATURE);
+        return climateData.get(ClimateRangeType.HIGHEST_TEMPERATURE);
     }
 
     public SimilarCity(City c) {
-        Map<ClimateRangeType, List<BigDecimal>> climateData = new HashMap<>();
-        climateData.put(AVG_TEMPERATURE, extractListForRange(c, (m) -> m.getMinTempF().add(m.getMaxTempF()).divide(TWO, context)));
-        climateData.put(LOWEST_TEMPERATURE, extractListForRange(c, ClimateMonth::getMinTempF));
-        climateData.put(HIGHEST_TEMPERATURE, extractListForRange(c, ClimateMonth::getMaxTempF));
-        climateData.put(RAIN_DAYS, extractListForRange(c, ClimateMonth::getRaindays));
-        climateData.put(RAINFALL, extractListForRange(c, ClimateMonth::getRainfall));
         this.city = c;
-        this.climateData = climateData;
+        this.climateData = new CityClimateBuilder().buildCityClimate(city);
     }
 
     public SimilarCity setDiffScore(Integer diff) {
         this.diff = diff;
         return this;
-    }
-
-    private List<BigDecimal> extractListForRange(City city, Function<ClimateMonth, BigDecimal> getValue) {
-        List<ClimateMonth> climateMonths = city.getClimate().getClimateMonth();
-        List<BigDecimal> values = climateMonths.stream().map(getValue::apply).collect(Collectors.toList());
-        Collections.sort(values);
-        return values;
     }
 
     public String getCityName() { return city.getCityName(); }
@@ -76,20 +52,34 @@ public class SimilarCity {
         return city.getPopulation();
     }
     public BigDecimal getHighestAvgTemperature() {
+        if (getAvgTemperatures().isEmpty()) return new BigDecimal("-1");
         return getAvgTemperatures().get(getAvgTemperatures().size() - 1);
     }
     public BigDecimal getLowestAvgTemperature() {
+        if (getAvgTemperatures().isEmpty()) return new BigDecimal("-1");
         return getAvgTemperatures().get(0);
     }
     public BigDecimal getAvgTemperature() {
-        return getAvgTemperatures().stream().reduce(BigDecimal.ZERO, BigDecimal::add).divide(new BigDecimal(getAvgTemperatures().size()), context);
+        if (getAvgTemperatures().isEmpty()) return new BigDecimal("-1");
+        return getAvgTemperatures().stream()
+                .reduce(BigDecimal.ZERO, BigDecimal::add)
+                .divide(new BigDecimal(getAvgTemperatures().size()), context);
     }
     public BigDecimal getLowestTemperature() {
+        if (getLowestTemperatures().isEmpty()) return new BigDecimal("-1");
         return getLowestTemperatures().get(0);
     }
     public BigDecimal getHighestTemperature() {
+        if (getHighestTemperatures().isEmpty()) return new BigDecimal("-1");
         return getHighestTemperatures().get(getHighestTemperatures().size() - 1);
     }
-    public BigDecimal getRainDays() { return climateData.get(RAIN_DAYS).stream().reduce(BigDecimal.ZERO, BigDecimal::add); }
-    public BigDecimal getRainfall() { return climateData.get(RAINFALL).stream().reduce(BigDecimal.ZERO, BigDecimal::add); }
+    public BigDecimal getRainDays() { return climateData.get(ClimateRangeType.RAIN_DAYS).stream().reduce(BigDecimal.ZERO, BigDecimal::add); }
+    public BigDecimal getRainfall() { return climateData.get(ClimateRangeType.RAINFALL).stream().reduce(BigDecimal.ZERO, BigDecimal::add); }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof SimilarCity)) return false;
+        SimilarCity thatSC = (SimilarCity)obj;
+        return thatSC.getCityId().equals(getCityId());
+    }
 }

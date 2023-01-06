@@ -48,17 +48,15 @@ public class ClimateLoadService {
 
     Map<Integer, Integer> populations = new HashMap<>();
 
-
     private void loadPopulations() {
         String[] HEADERS = {"id", "population"};
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("cities_cities.csv").getFile());
 
         try (Reader in = new FileReader(file)) {
-            Iterable<CSVRecord> records = CSVFormat.DEFAULT
-                    .withHeader(HEADERS)
-                    .withFirstRecordAsHeader()
-                    .parse(in);
+            Iterable<CSVRecord> records = CSVFormat.Builder.create()
+                    .setHeader(HEADERS).setSkipHeaderRecord(true)
+                    .build().parse(in);
             for (CSVRecord record : records) {
                 Integer id = Integer.parseInt(record.get("id"));
                 Integer population = Integer.parseInt(record.get("population"));

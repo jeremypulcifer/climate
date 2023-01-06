@@ -1,4 +1,4 @@
-package org.pulcifer.climate.range;
+package org.pulcifer.climate.dto;
 
 public enum ClimateRangeType {
     AVG_TEMPERATURE,
