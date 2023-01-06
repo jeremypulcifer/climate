@@ -1,0 +1,30 @@
+{
+    "cityName":"BBB",
+    "cityId":222,
+    "population": 10000,
+    "climate":{
+      "climateMonth":[
+        {
+          "month":1,
+          "maxTempF":"61.0",
+          "minTempF":"46.0",
+          "raindays":"11",
+          "rainfall":"125"
+        },
+        {
+          "month":2,
+          "maxTempF":"71.0",
+          "minTempF":"66.0",
+          "raindays":"16",
+          "rainfall":"135"
+        },
+        {
+          "month":3,
+          "maxTempF":"86.0",
+          "minTempF":"76.0",
+          "raindays":"21",
+          "rainfall":"145"
+        }
+      ]
+  }
+}

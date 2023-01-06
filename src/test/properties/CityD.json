@@ -1,0 +1,8 @@
+{
+    "cityName":"BBB",
+    "cityId":444,
+    "population": 10000,
+    "climate":{
+      "climateMonth":[]
+  }
+}
