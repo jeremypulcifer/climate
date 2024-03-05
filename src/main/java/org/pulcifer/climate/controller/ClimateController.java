@@ -1,5 +1,9 @@
 package org.pulcifer.climate.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
+import jakarta.servlet.ServletOutputStream;
+import jakarta.servlet.http.HttpServletResponse;
 import org.pulcifer.climate.dto.SimilarCity;
 import org.pulcifer.climate.model.City;
 import org.pulcifer.climate.svc.CityService;
@@ -7,10 +11,10 @@ import org.pulcifer.climate.svc.Similarity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.ServletOutputStream;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import java.io.*;
 import java.math.BigDecimal;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -36,7 +40,12 @@ public class ClimateController {
         return String.format("%s/%s", city.getCityName(), city.getCountry());
     }
 
-    @GetMapping("/similar/{cityId}/")
+    @GetMapping("/city_with_temperature_range")
+    public City setTemperatureRange(@RequestParam(value = "city_id") Integer cityId) {
+        return svc.setTemperatureRange(cityId);
+    }
+
+    @GetMapping("/similar/{cityId}")
     public List<SimilarCity> similar(@PathVariable Integer cityId
             , @RequestParam(value = "min_pop") Integer minPop
             , @RequestParam(value = "max_pop") Integer maxPop
@@ -56,6 +65,25 @@ public class ClimateController {
         return similarity;
     }
 
+    @GetMapping(value = "/allCSV/")
+    public void allCSV()
+            throws IOException {
+        try (FileWriter fileWriter = new FileWriter("/Users/jpulcifer/personal/climate/data-in/in.csv");
+             PrintWriter printWriter = new PrintWriter(fileWriter)) {
+            printWriter.println("country,city,population,id,avg-temp");
+            for (SimilarCity city : svc.retrieveAllCities()) printWriter.println(citySimpleDataAsCSV(city));
+        }
+    }
+
+    @GetMapping(value = "/allJSON/")
+    public void allJSON()
+            throws IOException {
+        ObjectWriter mapper = new ObjectMapper().writerWithDefaultPrettyPrinter();
+        for (SimilarCity city : svc.retrieveAllCities()) {
+            mapper.writeValue(new File("/Users/jpulcifer/personal/climate/data-json/"+city.getCityId()+".json"), city);
+        }
+    }
+
     @GetMapping(value = "/similarCSV/{cityId}")
     public void similarCSV(@PathVariable Integer cityId
             , @RequestParam(value = "min_pop") Integer minPop
@@ -66,7 +94,7 @@ public class ClimateController {
         response.setContentType("text/plain");
         response.setHeader("Content-Disposition", "attachment;filename=myFile.txt");
         try (ServletOutputStream out = response.getOutputStream()) {
-            out.println("county,city,id,highest avg temp,lowest avg temp,avg-temp,lowest-temp,highest-temp,rain days,rainfall,diff");
+            out.println("country,city,id,highest avg temp,lowest avg temp,avg-temp,lowest-temp,highest-temp,rain days,rainfall,diff");
             List<SimilarCity> cities = svc.retrieveSimilarCities(buildSimilarity(cityId, minPop, maxPop, similarityMultiplier));
             for (SimilarCity city : cities) out.println(cityDataAsCSV(city));
             out.flush();
@@ -75,7 +103,7 @@ public class ClimateController {
 
     private String cityDataAsCSV(SimilarCity c) {
         return String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",
-                c.getCountry().replaceAll(",", "-"), c.getCityName().replaceAll(",", "-"),
+                c.getCountry().replaceAll(",", "-"), c.getCityName().replaceAll(",", "-").replaceAll("- ", "-"),
                 c.getPopulation(),
                 c.getCityId(),
                 c.getHighestAvgTemperature(),
@@ -84,5 +112,13 @@ public class ClimateController {
                 c.getLowestTemperature(),
                 c.getHighestTemperature(),
                 c.getRainDays(), c.getRainfall(), c.getDiff());
+    }
+    private String citySimpleDataAsCSV(SimilarCity c) {
+        return String.format("%s,%s,%s,%s,%s",
+                c.getCountry().replaceAll(",", "-").replaceAll("- ", "-"),
+                c.getCityName().replaceAll(",", "-").replaceAll("- ", "-"),
+                c.getPopulation(),
+                c.getCityId(),
+                c.getAvgTemperature());
     }
 }

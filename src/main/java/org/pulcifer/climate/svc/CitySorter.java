@@ -14,12 +14,19 @@ import static java.lang.Math.abs;
 
 public class CitySorter {
 
-    private SimilarCityList similarCityList;
+    private final SimilarCityList similarCityList;
 
     public CitySorter(BigDecimal similarityMultiplier) {
         similarCityList = new SimilarCityList(similarityMultiplier);
     }
 
+    public CitySorter() {
+        similarCityList = new SimilarCityList();
+    }
+
+    public List<SimilarCity> dontSort(List<City> cities) {
+        return similarCityList.findAllCities(cities);
+    }
     public List<SimilarCity> sortCitiesByClimateDifferences(SimilarCity city, List<City> cities, Integer minPop, Integer maxPop) {
         city.setDiffScore(0);
         var similarCities = similarCityList.findSimilarCities(city, cities, minPop, maxPop);

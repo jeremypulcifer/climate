@@ -7,10 +7,7 @@ import org.pulcifer.climate.model.ClimateMonth;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -31,7 +28,7 @@ public class CityClimateBuilder {
 
     private List<BigDecimal> extractListForRange(City city, Function<ClimateMonth, BigDecimal> getValue) {
         List<ClimateMonth> climateMonths = city.getClimate().getClimateMonth();
-        List<BigDecimal> values = climateMonths.stream().map(getValue::apply).collect(Collectors.toList());
+        List<BigDecimal> values = climateMonths.stream().map(getValue::apply).filter(Objects::nonNull).collect(Collectors.toList());
         Collections.sort(values);
         return values;
     }

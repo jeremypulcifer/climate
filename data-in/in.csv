@@ -1,0 +1,1720 @@
+country,city,population,id,avg-temp
+Armenia,Dilijan,null,2079,47.95
+Argentina,Bariloche,158989,858,47.38
+Algeria,Oran,null,1361,64.18
+China,Zunyi,691694,1874,60.79
+El Salvador,San Miguel,283264,1188,83.34
+Iran (Islamic Republic of),Birjand,203636,1445,61.64
+Costa Rica,Liberia,null,1124,81.55
+Iraq,Baghdad,3841268,1464,72.93
+United States of America,Dover-Delaware,null,1975,56.80
+United States of America,Ketchikan-Alaska,null,1997,45.07
+Saudi Arabia,Tabouk,null,697,71.92
+United States of America,Greensboro-North Carolina,298263,767,57.75
+Spain,Segovia,null,1787,54.30
+Greece,Mytilini,null,2285,63.10
+United States of America,Dallas Ft Worth-Texas,1288457,745,66.20
+United Kingdom of Great Britain and Northern Ireland,Isle of Man,null,1374,49.53
+Burundi,Rwegura,null,1525,60.58
+Panama,David,null,1241,80.70
+Rwanda,Rusizi,null,1508,68.69
+Guyana,Lethem,null,1493,82.05
+Senegal,Ziguinchor,337295,2932,82.20
+Mexico,Mazatlan,515432,1289,75.33
+Australia,Ipswich,null,419,67.77
+Greece,Kefalhnia,null,2282,63.72
+Cyprus,Paphos Airport,null,1442,67.50
+Romania,Constanta,297503,2092,54.20
+Mexico,Los Cabos,null,1204,74.53
+Türkiye,Mugla,null,1366,59.48
+United States of America,Philadelphia-Pennsylvania,1576251,805,55.82
+Russian Federation,Petrozavodsk,267102,968,36.48
+Bangladesh,Barishal,null,1168,78.34
+China,Baoji,600377,1832,57.16
+Hungary,Nagykanizsa,null,3012,50.73
+Ireland,Shannon Airport,null,329,51.33
+Iraq,Amarah,null,1463,76.71
+United States of America,Norman-Oklahoma,128097,2017,60.16
+Indonesia,Denpasar,788589,649,82.51
+Iran (Islamic Republic of),Shahrekord,null,1459,53.60
+South Africa,Polokwane,null,2989,65.51
+China,Shihezi,590115,1855,45.39
+Netherlands,Maastricht,122397,147,49.72
+Mozambique,Pemba,null,120,77.84
+Australia,Whitemark,null,1747,56.94
+Azerbaijan,Lenkaran,null,20,57.83
+Saudi Arabia,Riyadh,5188286,216,77.90
+Spain,Barcelona,1650457,1232,60.92
+Russian Federation,Stavropol',null,1028,49.68
+Venezuela-Bolivarian Republic of,Guanare,160234,2056,80.48
+Finland,Helsinki-Vantaa,656920,168,40.65
+Russian Federation,Tomsk,565000,1006,33.06
+Montenegro,Podgorica,185937,1378,60.12
+Australia,Singleton,null,1322,64.77
+Australia,Cygnet,null,1808,52.84
+Australia,Katanning,null,424,60.58
+Mongolia,Tosontsengel,null,1136,16.31
+Mexico,Monterrey,5603789,1208,72.23
+Russian Federation,Moscow,null,206,41.15
+Australia,Parramatta,null,1313,63.91
+Brazil,Manaus,1792881,1073,81.21
+Canada,Inuvik-Northwest Territories,null,643,16.28
+China,Xining,854466,545,44.34
+Mongolia,Sukhbaatar,null,1146,34.09
+Spain,Badajoz,150797,1758,62.68
+Viet Nam,Da Nang,null,656,80.25
+South Sudan,Malakal,null,1540,82.71
+Australia,Laverton [WA],null,436,68.44
+Australia,Murray Bridge,null,465,61.62
+United States of America,Fort Collins-Colorado,168538,1977,48.86
+United States of America,Rochester-New York,121465,818,48.15
+Norway,Oslo,681067,21,42.77
+United Kingdom of Great Britain and Northern Ireland,Jersey,null,1372,53.17
+United States of America,Minneapolis-Minnesota,425336,276,46.16
+Slovenia,Novo Mesto,null,1924,50.33
+Papua New Guinea,Goroka,null,1427,69.88
+Australia,Grafton,null,409,67.80
+Australia,Strathgordon,null,1824,50.40
+Canada,Lethbridge-Alberta,101799,627,42.16
+Colombia,Pasto,352326,878,55.89
+Malaysia,Langkawi,null,85,82.68
+United States of America,Lowell-Massachusetts,113994,2002,48.38
+Dominican Republic,La Romana,130426,593,79.42
+Ecuador,San Cristobal-Galapagos,null,2049,76.59
+Italy,Potenza,null,1951,52.77
+Nigeria,Sokoto,329639,2051,84.09
+United States of America,Brownsville-Texas,187831,727,74.46
+Russian Federation,Pskov,205062,976,41.08
+Slovakia,Lucenec,null,1226,50.08
+China,Yangquan,655317,1865,53.27
+Spain,Ciudad Real,null,1764,60.01
+Spain,Zamora,null,1793,55.89
+Saudi Arabia,Jeddah,null,699,83.63
+Ecuador,Cuenca,331888,2047,60.31
+Egypt,Luxor,null,1271,77.05
+Madagascar,Sambava,null,3007,76.83
+China,Fuzhou,2124435,557,68.70
+China,Golmud,null,1839,42.48
+Australia,Gabo Island,null,1674,59.62
+Australia,Brisbane Bayside,null,1192,69.36
+Australia,Mount Isa,null,1705,76.38
+Mozambique,Inhambane,null,126,74.80
+Côte d'Ivoire,Abidjan,4395243,2876,80.43
+Türkiye,Edirne,null,1364,56.61
+United States of America,Kansas City-Missouri,154545,776,56.63
+United States of America,Los Angeles-California,3849297,269,65.41
+Republic of Korea,Daejeon,1500215,334,54.96
+Mexico,Chihuahua,1018398,1279,63.98
+Poland,Poznan,533773,26,48.06
+Indonesia,Ujung Pandang,null,650,81.50
+Canada,Edmonton-Alberta,1057181,621,36.27
+China,Zhangjiakou,903348,1869,48.80
+Kenya,Kisumu,397853,903,79.31
+Uganda,Gulu,149802,1937,73.58
+Australia,Lake Grace,null,433,62.25
+Bulgaria,Sofia,1221785,303,50.10
+Iran (Islamic Republic of),Orumiyeh,736224,1454,52.75
+Russian Federation,Groznyj,null,1037,52.15
+Spain,Ponferrada,null,2191,55.44
+Venezuela-Bolivarian Republic of,Valle De La Pascua,null,2067,81.59
+Italy,Ancona,100115,1942,56.50
+Colombia,Bucaramanga,528855,870,71.40
+United States of America,Huntsville-Alabama,216963,771,62.04
+Brazil,Aracaju,571149,1060,78.43
+Sweden,Norrkoping,126071,1043,45.61
+Hungary,Kecskemet,110012,3011,51.84
+Myanmar,Myitkyina,306949,2150,76.13
+Papua New Guinea,Lae City,null,1429,80.03
+Lesotho,Botha-Bothe,null,1337,58.67
+Australia,Wilsons Promontory,null,1748,57.64
+China,Hohhot,null,562,43.55
+France,Lille,232741,1053,50.62
+Vanuatu,Luganville,null,674,77.85
+Myanmar,Naypyitaw,null,2151,80.51
+Russian Federation,Kurgan,326729,1004,35.91
+United States of America,Augusta-Georgia,201196,1958,63.88
+Portugal,Faro,null,4,62.93
+Fiji,Suva,74481,93,77.83
+Republic of Moldova,Balti,144507,1423,48.54
+Russian Federation,Astrahan',null,1026,50.60
+United States of America,Burlington-Vermont,null,729,45.85
+Germany,Essen,583109,1345,50.01
+Mongolia,Ulaangom,null,1134,27.61
+Sri Lanka,Kandy,109343,342,76.25
+Zimbabwe,Kwekwe,null,951,68.28
+Mongolia,Murun,null,1140,32.53
+Chile,La Serena,233607,2203,57.95
+Kenya,Voi,null,1800,76.88
+Russian Federation,Volgograd,1018762,1022,47.15
+Nepal,Dhangadhi,101970,2961,75.18
+Ethiopia,Assosa,null,1918,71.33
+Guyana,Georgetown,24849,289,81.05
+United States of America,Chattanooga-Tennessee,182113,735,60.82
+Lesotho,Leribe,null,1338,58.98
+Sri Lanka,Anuradhapura,null,338,81.89
+Benin,Cotonou,679012,259,88.61
+Australia,Collie,null,388,59.83
+Australia,Cressy,null,1669,53.42
+United States of America,Agana-Guam,1051,1954,81.45
+United States of America,Baltimore-Maryland,576498,720,61.34
+Ireland,Wexford,null,1917,50.47
+United States of America,Fargo-North Dakota,126748,756,42.25
+Uruguay,Montevideo,1383964,293,62.46
+Poland,Wroclaw,642473,586,48.32
+Rwanda,Karongi,null,1509,68.02
+United Kingdom of Great Britain and Northern Ireland,Belfast,280211,38,49.69
+Romania,Iasi,318871,2094,50.75
+Kenya,Lodwar,null,519,84.85
+China,Guilin,804571,561,67.00
+Hungary,Szombathely,null,3014,50.46
+Ukraine,Uzhhorod,null,2942,51.13
+United States of America,Butte-Montana,null,1965,39.85
+Cameroon,Ngaoundere,152698,1514,75.52
+Canada,Cranbrook-British Columbia,null,618,42.33
+Portugal,Ponta Delgada,null,6,63.18
+Israel,Afula,null,1929,67.77
+Mozambique,Vilanculos,null,923,75.03
+Malaysia,Alor Setar,138236,75,82.18
+Costa Rica,Limon,100236,1119,78.56
+Thailand,Chiang Rai,455732,566,76.85
+United States of America,Waco-Texas,139594,842,66.56
+Qatar,Ummsaid,null,1883,80.25
+Germany,Bremen,569352,1342,48.55
+Australia,Hay,null,1678,63.33
+Mexico,Aguascalientes,1189107,1277,65.20
+China,Anshan,1556285,1831,49.66
+United States of America,Kenosha-Wisconsin,null,1996,47.92
+Myanmar,Putao,null,2153,79.88
+Cameroon,Kribi,null,1517,80.58
+Australia,Echuca,null,396,60.11
+Australia,Tennant Creek,null,501,78.86
+Burkina Faso,Dori,21078,1529,85.23
+Russian Federation,Kaliningrad,437456,977,45.32
+Senegal,Podor,null,2927,85.05
+Russian Federation,Syktyvkar,null,972,33.45
+United States of America,New Orleans-Louisiana,376971,795,70.41
+United States of America,Peoria-Illinois,194917,804,51.76
+India,Kochi,633553,1599,81.03
+United States of America,Abilene-Texas,125070,703,64.51
+Canada,Winnipeg-Manitoba,767500,630,36.72
+Côte d'Ivoire,Daloa,245360,2880,77.43
+Russian Federation,Kemerovo,538188,1008,33.26
+United Kingdom of Great Britain and Northern Ireland,Glasgow,1209143,1902,47.87
+United States of America,Sault Ste. Marie-Michigan,null,827,41.68
+Saudi Arabia,Taif,null,864,73.40
+Italy,Lecce,null,2073,61.13
+United States of America,Charleston-South Carolina,151612,732,66.68
+Australia,Mildura,null,453,62.95
+Estonia,Parnu,null,1928,43.10
+Ukraine,Vinnytsia,370017,2943,47.18
+Vanuatu,Sola,null,1472,79.19
+Russian Federation,Jaroslavl',null,982,38.50
+Australia,Sydney,248736,300,65.31
+Brazil,Maceio,932078,1072,77.53
+Canada,Victoria-British Columbia,94890,620,49.44
+Sweden,Ostersund,null,3021,38.89
+Kazakhstan,Almaty,2001059,152,48.60
+Republic of Korea,Jeju,670207,337,60.00
+China,Haikou,830192,559,75.98
+China,Lanzhou,2087759,546,50.13
+Thailand,Chiang Mai,967020,567,79.18
+United States of America,Middletown-Connecticut,null,2005,51.58
+Italy,Bologna,393551,1944,56.39
+Canada,Quebec-Quebec,550294,635,39.26
+Mauritius,Vacoas,null,1220,70.55
+Australia,Roma,null,488,68.49
+Australia,Goondiwindi,null,406,67.96
+Spain,Valencia,794979,1238,64.91
+Sri Lanka,Galle,null,340,80.10
+Guinea,Kindia,138695,924,77.77
+Spain,Talavera de la Reina,null,2198,59.79
+Russian Federation,Tjumen',null,1001,34.76
+Guinea,Siguiri,127492,931,80.58
+Australia,Tatura,null,1735,58.82
+Canada,Grande Prairie-Alberta,null,625,35.40
+Colombia,Tumaco,null,888,79.18
+Ghana,Ho,null,1381,81.82
+Switzerland,Zurich,1414771,312,47.82
+United States of America,Green Bay-Wisconsin,107015,766,44.17
+Madagascar,Ranohira,null,3005,74.35
+Serbia,Nis,254723,1389,53.12
+Canada,Halifax-Nova Scotia,459938,637,43.26
+Botswana,Gaborone,231592,1542,69.70
+Australia,Kalumburu,null,1215,81.16
+Mozambique,Nampula,303346,121,75.48
+South Africa,Ladysmith,null,2985,64.52
+Mexico,Cancun,997808,1209,80.79
+Paraguay,Ciudad Del Este,223350,1175,72.13
+United States of America,Sacramento-California,525041,820,61.00
+Nepal,Birendranagar,null,2101,71.10
+Ghana,Sefwi Bekwai,null,2978,81.72
+Greece,Tatoi (North Attica),null,2289,60.78
+Benin,Kerou,null,2211,78.91
+Republic of Moldova,Cahul,null,1424,50.47
+Myanmar,Taunggyi,381639,2158,67.54
+Spain,Cuenca,null,1766,56.89
+Ireland,Mayo,null,1915,49.05
+United States of America,Dayton-Ohio,137571,746,53.98
+Canada,Ottawa-Ontario,1054800,265,42.80
+Australia,Maryborough,null,450,70.48
+Australia,Gold Coast,635191,405,68.48
+Australia,Elizabeth,null,397,62.35
+Australia,Cairns,168449,299,77.15
+Armenia,Vanadzor,null,67,39.49
+Australia,Alyangula,null,357,80.55
+Australia,Ingham,null,416,75.49
+Australia,Mackay,null,443,73.28
+Venezuela-Bolivarian Republic of,Puerto Ayacucho,null,2062,81.96
+United States of America,Atlanta-Georgia,496461,268,62.50
+Hungary,Szeged,159666,65,52.13
+Papua New Guinea,Madang,null,1430,80.97
+Panama,Santiago,null,1242,80.64
+Brunei Darussalam,Bandar Seri Begawan,27285,95,81.58
+Canada,Yellowknife-Northwest Territories,null,615,23.79
+Ireland,Belmullet,null,330,50.53
+Madagascar,Morondava,null,3009,78.24
+Greece,Rhodes,null,2286,65.92
+Russian Federation,Vladikavkaz,327448,1110,48.31
+Australia,Ivanhoe,null,1318,65.34
+Colombia,Lebrija,null,1645,71.42
+Viet Nam,Ho Chi Minh City,null,309,84.08
+Iran (Islamic Republic of),Arak,520944,1443,56.94
+Australia,Point Hicks,null,1718,60.08
+Egypt,Alexandria,5163750,1268,69.01
+Germany,Regensburg,152610,1354,47.83
+Malaysia,Kota Bharu,null,79,81.26
+Kenya,Malindi,119825,1798,79.23
+United States of America,Lafayette-Louisiana,121771,1998,67.56
+Nepal,Jomsom,null,3509,53.00
+United States of America,New York City-New York,8467513,278,54.91
+Thailand,Sukhothai,166782,570,81.96
+Colombia,Riohacha,177573,884,83.27
+Myanmar,Monywa,372095,2149,81.73
+Spain,Almeria,201037,1756,66.28
+Nepal,Ghorahi,null,2962,71.13
+Türkiye,Van,null,1370,48.34
+Slovenia,Ratece,null,1926,43.94
+South Africa,Mthatha,null,2987,64.38
+Thailand,Songkhla,800970,578,82.28
+Viet Nam,Lang Son,null,3031,72.18
+Russian Federation,Hanty-Mansijsk,null,973,29.49
+Morocco,Ouarzazate,null,3517,67.77
+Sudan,Elobeid,null,1538,81.27
+United Kingdom of Great Britain and Northern Ireland,Bristol,535907,1898,51.09
+Iraq,Kirkuk,418624,1466,72.08
+Italy,Isola d'Elba,null,2072,57.61
+Lithuania,Klaipeda,149086,608,46.15
+Malaysia,Melaka,63854,86,81.55
+New Caledonia,Noumea,94285,296,73.61
+Venezuela-Bolivarian Republic of,Maracay,419052,1198,79.98
+Croatia,Rijeka,128624,72,57.29
+Australia,Denham,null,1218,71.84
+Jordan,Aqaba,188160,591,75.58
+Venezuela-Bolivarian Republic of,Tumeremo,null,2066,80.21
+Spain,Aviles,null,2886,56.26
+India,Chandigarh,970602,526,74.23
+Saudi Arabia,Makkah,1534731,700,88.58
+Spain,Castellon de la Plana/Castello de la Plana,null,1762,64.06
+Australia,Ben Lomond,null,1803,52.72
+Türkiye,Ankara,null,48,53.24
+United Kingdom of Great Britain and Northern Ireland,Truro,null,1911,51.54
+Venezuela-Bolivarian Republic of,Guiria,null,2057,80.70
+Japan,Fukuoka,1612392,185,63.00
+Finland,Kuopio,120210,171,37.55
+United States of America,Atlantic City-New Jersey,null,718,55.48
+Ghana,Axim,null,2968,80.16
+Australia,Townsville,196800,321,76.45
+Australia,Wonthaggi,null,510,57.73
+Colombia,Santa Marta,479853,886,82.68
+Russian Federation,Dudinka,null,969,13.89
+Italy,Udine,null,1953,55.53
+Lithuania,Vilnius,565869,204,44.38
+Russian Federation,Samara,1170485,1005,41.11
+Norway,Trondheim,178021,907,41.79
+Lao People's Democratic Republic,Luangphrabang,null,644,78.04
+Greece,Kerkyra,null,2283,62.13
+Bosnia and Herzegovina,Tuzla,131318,15,52.60
+Myanmar,Coco-Island,null,2138,81.18
+China,Shenyang,5303053,352,47.17
+Australia,Innisfail,null,417,75.24
+Australia,Inverell,null,418,60.28
+Comoros,Moroni,30365,311,77.55
+United States of America,Key West-Florida,null,777,77.78
+Colombia,Providencia,null,881,82.04
+Japan,Sendai,1096704,182,54.71
+Russian Federation,Ordzhonikedzevskaja,null,1036,50.72
+Australia,Darwin,82030,322,82.01
+Australia,Griffith,null,410,62.97
+Morocco,Marrakech,null,180,69.12
+United States of America,Missoula-Montana,null,2007,45.60
+Germany,Berlin,3644826,59,49.32
+Viet Nam,Nha Trang,null,3027,81.40
+Venezuela-Bolivarian Republic of,Maturin,571276,2060,80.95
+Egypt,Asswan,null,1272,79.44
+Morocco,Tanger,null,3521,65.01
+Egypt,Sharm El-Sheikh,null,1269,78.67
+Brazil,Recife,1537704,1078,77.89
+Russian Federation,Irkutsk,601993,662,33.15
+Suriname,Sipaliwini,null,2088,78.53
+United States of America,Birmingham-Alabama,197575,723,63.22
+Venezuela-Bolivarian Republic of,Coro,199603,1196,84.29
+United Kingdom of Great Britain and Northern Ireland,Plymouth,234982,1906,51.88
+Russian Federation,Birobidzan,null,1047,31.95
+Germany,Hamburg,1841179,55,48.18
+Ghana,Yendi,null,1385,82.75
+Viet Nam,Hanoi,null,308,76.22
+Panama,Anton,null,1244,81.77
+China,Liuzhou,1220392,1844,69.60
+Colombia,Armenia,275641,868,71.69
+Ukraine,Simferopol,356771,2938,52.66
+Russian Federation,Tver',null,984,39.44
+Egypt,Cairo,9539673,248,72.08
+Eswatini,Mbabane,null,912,61.67
+Mexico,Cuernavaca,1051220,1281,69.40
+Guyana,Timehri,null,1497,79.20
+Sri Lanka,Batticaloa,null,339,81.98
+Romania,Botosani,113107,2090,49.81
+Zimbabwe,Kariba,null,966,76.05
+Canada,Medicine Hat-Alberta,null,626,42.18
+Australia,Dalby,null,392,66.91
+Australia,Armidale,null,358,55.67
+Australia,Bridgetown,null,372,59.27
+Australia,Mandurah,null,446,63.90
+Burkina Faso,Gaoua,null,1531,81.82
+Iraq,Nasiriya,null,1468,77.13
+Malaysia,Kuching,null,80,81.26
+Russian Federation,Nal'cik,null,1034,49.49
+United States of America,Roanoke-Virginia,100011,817,55.89
+Netherlands,De Bilt,null,144,49.42
+Chile,Puerto Montt,246497,104,51.10
+Benin,Ouidah,null,2213,80.43
+Australia,Kurnell,null,515,63.75
+Israel,Haifa,284526,1931,67.18
+Mexico,Cozumel,null,1280,79.70
+Senegal,Kaolack,410577,2920,84.86
+Iran (Islamic Republic of),Mashhad,3001184,938,56.74
+Russian Federation,Murmansk,303754,967,32.28
+Uganda,Masindi,null,1939,72.07
+Ghana,Kumasi,1730249,922,80.06
+Iran (Islamic Republic of),Ghom,null,1448,64.05
+Norway,Bergen,265857,22,46.11
+Italy,Milan (MILANO),null,603,55.38
+Zimbabwe,Plumtree,null,960,67.98
+Türkiye,Istanbul,null,47,57.88
+Russian Federation,Petropavlovsk-Kamca,null,665,34.52
+Türkiye,Erzurum,null,53,42.34
+Senegal,Kolda,null,2922,83.11
+Cameroon,Douala,1907479,1513,80.49
+United States of America,Flagstaff-Arizona,null,757,46.22
+Ireland,Cork,124391,328,49.84
+Russian Federation,Joskar-Ola,null,985,37.70
+Maldives,Gan -Addu Atoll,null,589,81.83
+Mongolia,ZamiinUud,null,1158,40.11
+Spain,Huesca,null,1772,57.51
+United States of America,Cincinnati-Ohio,308935,737,54.24
+Nepal,Bhairahwa,null,2959,76.63
+Mongolia,Dalanzadgad,null,1155,41.93
+Libya (State of),Tripoli,null,1179,68.89
+Guyana,Kamarang,null,1492,75.38
+Iran (Islamic Republic of),Ardabil,529374,1444,48.28
+Ukraine,Kherson,324888,2940,52.02
+Colombia,Palmira,302642,1646,75.44
+Australia,Ballarat,111361,362,53.93
+Mozambique,Lichinga,null,119,65.80
+Slovenia,Maribor,111142,1923,50.82
+Zimbabwe,Rusape,null,959,63.73
+Ireland,Dublin,544107,188,49.82
+Australia,Bairnsdale,null,361,57.58
+Antigua and Barbuda,St. John's Antigua,null,151,80.11
+Argentina,Buenos Aires,15567820,294,64.74
+Argentina,Cordoba,1573230,855,63.86
+Russian Federation,Palana,null,1046,26.60
+Nigeria,Ilorin,532089,3506,80.43
+Ireland,Kerry,null,1914,51.66
+Suriname,Paramaribo,240924,1048,82.10
+United States of America,Grand Island-Nebraska,null,1981,50.74
+United Kingdom of Great Britain and Northern Ireland,Reading,218705,1907,51.03
+Mexico,Saltillo,1080679,1296,64.76
+Canada,Saint John NB-New Brunswick,null,641,41.02
+Hungary,Bekescsaba,null,3010,51.67
+United States of America,Tuscaloosa-Alabama,100618,2042,64.95
+Slovenia,Portoroz,null,1925,55.70
+Spain,Malaga,577932,1235,65.25
+Viet Nam,Buon Me Thuot,null,3029,77.38
+Uzbekistan,Samarkand,551746,116,57.01
+Australia,Mornington Peninsula,null,458,58.06
+Australia,Morawa,null,456,68.52
+Madagascar,Antsirabe,245592,2997,63.50
+Greece,Tripolis,null,2290,56.05
+Colombia,Leticia,null,874,79.42
+Estonia,Tallinn,437980,149,42.06
+United States of America,Corpus Christi-Texas,317773,744,72.13
+Russian Federation,Ivanovo,408952,983,38.58
+Senegal,Matam,null,2925,86.75
+United States of America,Knoxville-Tennessee,192648,778,57.74
+Honduras,Tegucigalpa,996658,283,72.18
+Spain,Jaen,112344,1773,62.67
+United States of America,Tacoma-Washington,219205,2040,53.44
+United Kingdom of Great Britain and Northern Ireland,Londonderry (Derry),null,1905,49.45
+Romania,Arad,162984,2089,52.12
+Australia,Norfolk Island,null,471,65.94
+United Kingdom of Great Britain and Northern Ireland,Birmingham,1085810,28,49.53
+Ghana,Tamale,223252,1384,83.47
+United States of America,Joliet-Illinois,150372,1989,50.45
+Saudi Arabia,Yanbu,null,1892,82.40
+Botswana,Ghanzi,null,1546,70.60
+Republic of Korea,Gangneung,228232,333,55.64
+Ghana,Bolgatanga,null,2970,84.10
+Mongolia,Zuunmod,null,1147,31.10
+Poland,Krakow,777520,27,47.58
+Maldives,Hanimaadhoo,null,2882,82.95
+China,Taiyuan,2558382,549,50.21
+Australia,Winton,null,509,76.90
+Australia,Gympie,null,411,68.82
+China,Jingzhou,1177150,1877,62.48
+Italy,Agrigento,null,2069,63.59
+United States of America,Duluth-Minnesota,null,749,39.56
+United States of America,Albany-New York,null,712,48.22
+Indonesia,Lombok,null,654,80.11
+Spain,Palencia,null,1782,51.45
+Sri Lanka,Nuwara Eliya,null,343,60.54
+Canada,Kamloops-British Columbia,101603,617,47.95
+Russian Federation,Aginskoe,null,1014,29.75
+Spain,Marbella,147795,2187,64.58
+China,Kunming,3035406,238,59.32
+Myanmar,Kengtung,null,2145,73.84
+United States of America,Youngstown-Ohio,null,847,48.99
+Brazil,Campo Grande,774202,1064,73.98
+Sweden,Gothenburg,null,1042,48.14
+United States of America,Worcester-Massachusetts,205918,2046,47.77
+Kenya,Nakuru,570614,518,63.85
+United States of America,Minot-North Dakota,null,2006,41.98
+Spain,Mao-Mahon,null,2901,63.02
+Spain,Ourense,105119,1780,58.80
+Russian Federation,Hakasskaja,null,1010,34.50
+France,Bordeaux,249712,1050,55.90
+United Kingdom of Great Britain and Northern Ireland,London,8135667,32,52.82
+United States of America,North Platte-Nebraska,null,798,48.68
+Russian Federation,Nar'jan-Mar,null,970,25.42
+Japan,Tokyo,9733276,183,61.60
+Myanmar,Meiktila,null,2147,81.13
+Israel,Zefat,null,1935,62.52
+Cambodia,Phnom Penh -Pochentong,null,348,82.73
+Australia,Ross,null,1728,52.89
+Germany,Magdeburg,238697,1351,48.78
+Thailand,Phuket,358159,579,83.08
+China,Beijing,19612368,237,53.74
+Italy,Cagliari,150288,601,62.06
+Hungary,Nyiregyhaza,116684,3013,50.55
+United States of America,Waterloo-Iowa,null,2043,47.81
+United States of America,Yuma-Arizona,null,848,75.90
+Mali,Bamako,1810366,129,82.73
+Myanmar,Mindat,null,2148,67.94
+United States of America,Medford-Oregon,null,789,55.56
+Türkiye,Adana,null,50,66.95
+Bangladesh,Dhaka,8906035,1163,78.92
+Australia,Moranbah,null,455,73.80
+Australia,Narrabri,null,1316,66.06
+Zimbabwe,Chipinge,null,964,66.14
+Madagascar,Toamasina,326286,8,75.30
+Bahamas,Nassau,266100,97,76.62
+Mexico,Guadalajara,5436332,1206,70.19
+Mongolia,Tsetserleg,null,1142,34.69
+Spain,Girona,102650,1768,58.53
+Brazil,Sao Paulo,105269,1083,68.33
+Bosnia and Herzegovina,Banja Luka,195692,16,51.45
+Australia,Karratha,null,423,79.83
+Australia,Castlemaine,null,1663,56.65
+Australia,Currie,null,1670,56.01
+Viet Nam,Ca Mau,null,3030,83.03
+Colombia,Buenaventura,258445,1642,79.10
+Ethiopia,Mekele,null,167,66.21
+Venezuela-Bolivarian Republic of,Cd. Bolivar,null,1202,83.30
+Nepal,Dipayal,null,2103,73.20
+United States of America,Hilo-Hawaii,null,1985,73.84
+South Africa,Nelspruit,null,2988,67.07
+Australia,Wangaratta,null,505,58.61
+Brazil,Curitiba,1751907,1066,63.52
+Jordan,Amman,4007526,215,63.27
+Australia,George Town,null,1675,56.35
+Australia,Norseman,null,1252,63.99
+Australia,Orford,null,1714,54.89
+Israel,Nazareth,null,1934,66.84
+Viet Nam,Hai Phong,null,3024,75.55
+Italy,Palermo,642653,605,64.86
+Bhutan,Wangdi Phodrang,null,1274,67.63
+Brazil,Macapa,369287,1071,80.60
+Indonesia,Jakarta,10562088,310,83.08
+Iran (Islamic Republic of),Bandarabbas,null,943,80.44
+Burkina Faso,Boromo,null,1527,82.84
+Nepal,Biratnagar,201125,2960,76.28
+United States of America,Juneau-Alaska,null,775,43.48
+Greece,Athens,null,177,63.37
+Russian Federation,Habarovsk,null,663,35.92
+United Kingdom of Great Britain and Northern Ireland,Liverpool,552267,1904,50.26
+United States of America,Macon-Georgia,null,787,64.49
+Spain,Eivissa,null,2181,64.88
+United States of America,Cleveland-Mississippi,367991,1971,63.03
+Sri Lanka,Jaffna,null,341,82.51
+Panama,Panama City,null,1221,80.44
+United States of America,Goodland-Kansas,null,762,51.30
+Zimbabwe,Gokwe,null,955,68.93
+Ethiopia,Lalibela,null,1922,64.96
+Azerbaijan,Ganja,334813,19,56.38
+United States of America,Phoenix-Arizona,1624569,806,75.05
+Guatemala,Guatemala City,null,906,67.73
+Russian Federation,Kaluga,344766,990,39.99
+Botswana,Sir Seretse Khama Airport,null,1547,69.47
+Canada,Red Deer-Alberta,105415,624,36.23
+Dominican Republic,Santiago,null,598,78.57
+South Africa,Pretoria,741651,2991,65.66
+Ghana,Akim Oda,null,2967,80.95
+Guinea,Conakry,1879695,245,80.97
+Ukraine,Odesa,null,2937,52.66
+United Kingdom of Great Britain and Northern Ireland,Southampton,253651,1909,52.47
+Spain,Jerez de la Frontera,212953,2186,64.61
+Syrian Arab Republic,Palmyra,null,1264,66.33
+Venezuela-Bolivarian Republic of,San Fernando,null,1203,82.08
+Sudan,Nyala,null,1539,81.98
+Italy,Alghero,null,2070,60.64
+Mozambique,Beira,397368,124,75.99
+Serbia,Novi Sad,362675,1390,52.00
+Russian Federation,Tambov,281348,997,42.04
+Colombia,Bogota,null,157,53.09
+Libya (State of),Benghazi,null,1182,68.25
+United States of America,Reno-Nevada,268851,815,52.87
+United States of America,Tampa-Florida,387050,853,73.37
+Myanmar,Homalin,null,2141,76.00
+United Kingdom of Great Britain and Northern Ireland,Hamilton,null,1377,71.60
+France,Ajaccio,null,1753,59.05
+Mongolia,Baruun-Urt,null,1153,35.03
+United Republic of Tanzania,Mwanza,2772509,669,72.98
+Belgium,Virton,null,947,48.70
+Australia,Onslow,null,1216,77.49
+United States of America,Newark-New Jersey,307220,796,54.81
+Spain,Madrid,3320069,195,59.07
+United Republic of Tanzania,Tabora,null,670,74.26
+Guinea,N'Zerekore,null,934,76.03
+Indonesia,Pontianak,234021,653,81.98
+Mongolia,Khanbogd,null,1156,46.08
+Lao People's Democratic Republic,Savannakhet,null,645,79.05
+Canada,Saskatoon-Saskatchewan,282227,628,35.99
+Democratic People's Republic of Korea,Pyongyang,2581076,230,51.14
+Iraq,Karbala,null,1465,75.33
+United Kingdom of Great Britain and Northern Ireland,Cardiff,335145,36,51.48
+Iran (Islamic Republic of),Ghazvin,null,1447,57.07
+Russian Federation,Izhevsk,631182,1002,36.84
+Dominican Republic,Barahona,null,592,79.59
+Guinea,Faranah,null,930,77.44
+Syrian Arab Republic,Dara'a,null,1266,63.44
+United States of America,Washington DC,670050,270,55.20
+Costa Rica,Puntarenas,143875,1128,82.20
+Argentina,El Calafate,null,2205,44.03
+Australia,Nhulunbuy,null,469,79.85
+United States of America,Salem-Oregon,177723,822,52.99
+Malawi,Mzuzu,null,262,64.73
+Romania,Rm. Valcea,null,2095,52.55
+Bahrain,Bahrain/Manama,null,220,79.75
+United States of America,Caribou-Maine,null,730,39.73
+Sudan,Khartoum,null,249,85.86
+Czechia,Pilsen,175219,2161,48.73
+Myanmar,Thandwe,null,2159,78.92
+China,Yichang,712738,1867,63.25
+Australia,Longreach,null,441,74.85
+Germany,Frankfurt,null,57,50.12
+Croatia,Zagreb,790017,70,50.98
+Greece,Larissa,144651,2284,59.03
+Australia,Victor Harbor,null,503,60.45
+Luxembourg,Luxembourg,null,192,48.82
+Ukraine,Dnipro,null,2934,49.70
+Mongolia,Choir,null,1150,34.69
+Russian Federation,Vologda,313679,980,36.97
+Slovakia,Tisinec,null,1229,48.54
+United States of America,Columbia-Missouri,104681,1973,55.90
+El Salvador,Acajutla,null,1187,82.45
+Republic of Moldova,Chisinau,339079,208,49.93
+Mexico,Veracruz,962097,1302,77.38
+Venezuela-Bolivarian Republic of,Margarita,null,1200,82.31
+Syrian Arab Republic,Damascus,null,213,62.08
+United States of America,Erie-Pennsylvania,101047,752,49.79
+Bangladesh,Khulna,664728,1167,79.41
+Burundi,Muyinga,null,1522,67.88
+France,Nice,342522,902,60.04
+Suriname,Stoelmanseiland,null,2087,80.49
+Lao People's Democratic Republic,Luangnamtha,null,1501,75.54
+Russian Federation,Azov,null,1023,50.45
+United States of America,Denver-Colorado,711463,271,50.40
+Indonesia,Ambon,331254,655,80.11
+Australia,Wynyard,null,1749,53.73
+Australia,Ceduna,null,380,62.84
+Australia,Fingal,null,1811,52.72
+United States of America,Nashville-Tennessee,678851,794,59.31
+Kenya,Mombasa,1208112,520,79.31
+Senegal,Saint-Louis,null,2928,79.53
+Madagascar,Ambohitsilaozana,null,2995,70.90
+Australia,Melbourne,183756,301,60.68
+Malaysia,Pulau Pinang,null,89,81.74
+Türkiye,Sanliurfa,null,1368,64.90
+Romania,Craiova,293567,2093,52.92
+Brazil,Rio Branco,308545,1079,79.38
+Australia,Albany,null,356,59.75
+Australia,Kalgoorlie,null,422,65.66
+Australia,Yass,null,1751,57.44
+Colombia,Puerto Carreno,null,882,83.25
+Saudi Arabia,Al-Baha,null,862,73.67
+Cameroon,Bamenda,269530,1516,67.85
+Mexico,Morelia,1024898,1292,65.58
+Spain,Burgos,175234,1759,51.82
+Ethiopia,Gondar,null,1921,67.88
+Lesotho,Oxbow,null,1336,46.12
+Australia,Newcastle,167363,319,64.32
+United States of America,Tallahassee-Florida,197102,837,67.66
+Ukraine,Kharkiv,1430515,2936,47.77
+Ukraine,Kyiv,2893215,207,48.76
+Canada,Fredericton-New Brunswick,null,636,41.59
+Greece,Souda (Chania),null,2288,64.28
+Croatia,Osijek,108048,71,52.00
+Australia,Dalwallinu,null,684,66.47
+Mozambique,Quelimane,150116,122,77.08
+China,Xiamen,2053070,563,70.28
+Colombia,Popayan,277270,880,65.90
+Cameroon,Garoua,235996,1515,83.22
+Canada,Sudbury-Ontario,null,632,38.63
+Spain,Murcia,459876,1779,65.64
+Colombia,Barrancabermeja,199564,869,81.72
+Oman,Masirah,null,1408,80.46
+Ghana,Wa,null,1387,82.81
+Bhutan,Thimphu,114551,2956,59.03
+Türkiye,Izmir,null,49,64.10
+Lithuania,Siauliai,null,1548,44.59
+Oman,Muscat (Seeb),null,112,83.19
+United States of America,Fort Smith-Arkansas,null,759,61.65
+United States of America,Portland-Oregon,641162,810,54.38
+Curaçao and Sint Maarten,Oranjestad,null,1829,83.64
+United States of America,San Juan-Puerto Rico,342259,850,81.03
+Greece,Athinai Hellinikon (South Attica),null,2276,64.70
+Burkina Faso,Po,null,1534,82.54
+Australia,Kingaroy,null,429,64.49
+Australia,Leonora,null,1259,69.60
+Australia,Manjimup,null,447,59.58
+Mexico,Manzanillo,176221,1288,79.90
+North Macedonia,Skopje,546824,199,53.70
+Russian Federation,Turocak,null,1030,35.52
+Thailand,Kanchanaburi,292521,574,83.80
+United Kingdom of Great Britain and Northern Ireland,Exeter,106772,34,51.39
+United Kingdom of Great Britain and Northern Ireland,Inverness,null,1903,48.18
+Spain,Elche/Elx,234485,2182,65.83
+Madagascar,Antalaha,null,2996,76.90
+Brazil,Sao Luis,958545,1082,80.13
+United States of America,Louisville-Kentucky,616261,785,58.10
+France,Toulouse,471941,1058,55.96
+Iran (Islamic Republic of),Tehran,8693706,218,62.77
+China,Lhasa,null,236,46.51
+Australia,Nhill,null,1711,58.61
+Russian Federation,Kyzyl,112659,1031,28.10
+United States of America,Asheville-North Carolina,null,717,56.43
+Madagascar,Mahanoro,null,3001,74.98
+France,Lyon,513275,1054,53.40
+India,Tiruchirapalli,null,1626,82.28
+Republic of Moldova,Tiraspol,null,1425,50.27
+Italy,Genova,566081,1948,60.34
+Mexico,Puerto Vallarta,502904,1205,78.15
+United Republic of Tanzania,Mtwara,null,668,77.88
+Spain,Plasencia,null,2190,61.46
+Madagascar,Nosy Be,null,3004,79.38
+China,Harbin,null,540,39.07
+United States of America,San Antonio-Texas,1451853,825,69.41
+Ghana,Cape Coast,null,1380,81.14
+United States of America,Milwaukee-Wisconsin,569330,791,47.75
+China,Nanjing,3624234,350,60.36
+Bhutan,Samtse,null,2955,73.81
+Brazil,Vitoria,211529,1085,76.78
+Lesotho,Quthing,null,1333,60.43
+Oman,Suwiq,null,1420,79.71
+Malaysia,Cameron Highlands,null,76,65.74
+Italy,Rome (ROMA),null,201,59.37
+Türkiye,Zonguldak,null,1371,56.48
+Türkiye,Antalya,null,51,65.78
+South Africa,Bloemfontein,350504,2984,60.99
+United States of America,Wichita-Kansas,395699,851,56.93
+Spain,Vitoria-Gasteiz,253544,1792,53.23
+Australia,Tibooburra,null,1738,70.01
+Australia,Lord Howe Island,null,442,67.14
+Botswana,Francistown,98961,1543,69.66
+Colombia,Apartado,113469,866,80.85
+Iran (Islamic Republic of),Ahwaz,1184788,939,76.87
+Uzbekistan,Termez,182776,117,63.26
+Spain,Las Palmas de Gran Canaria,379949,1234,70.00
+United States of America,Fresno-California,544510,761,64.32
+Japan,Naha,317625,186,73.87
+Mexico,Leon,1996647,1287,67.24
+Russian Federation,Maikop,167281,1032,53.23
+France,Clermont Ferrand,null,1052,52.17
+Lesotho,Mokhotlong,null,1335,55.44
+Mongolia,Baganuur district,null,1132,28.70
+Serbia,Pristina,null,1391,50.01
+Venezuela-Bolivarian Republic of,San Antonio Del Tachira,null,2063,80.32
+Russian Federation,Vladivostok,624281,664,40.78
+Spain,Alicante/Alacant,337393,1754,64.84
+United States of America,Nampa-Idaho,106186,2010,51.51
+Mongolia,Erdenet,null,1149,30.53
+Nepal,Dadeldhura,null,3508,61.74
+China,Shenzhen,7008831,1854,73.61
+Azerbaijan,Baku,2285273,18,59.09
+Botswana,Kasane,null,1545,73.91
+Mongolia,Khatgal,null,1141,25.33
+United States of America,Yakima-Washington,null,846,49.66
+Guyana,Mabaruma,null,1495,78.79
+Australia,Pirlangimpi,null,1717,81.02
+China,Changchun,3225557,541,41.84
+United States of America,Jefferson City-Missouri,null,1988,55.18
+Oman,Salalah,339040,113,79.64
+Republic of Korea,Seoul,9601693,231,54.58
+United States of America,Helena-Montana,null,769,45.36
+United States of America,Owensboro-Kentucky,null,2020,59.11
+Australia,Warracknabeal,null,1745,59.96
+Germany,Kassel,201585,1348,48.41
+Australia,Sorell,null,1822,55.34
+Australia,Bundaberg,null,376,71.30
+Rwanda,Musanze,null,1507,63.92
+Spain,Cadiz,114841,1761,65.59
+United States of America,Aurora-Illinois,389347,1960,50.09
+United States of America,Buffalo-New York,276807,728,48.24
+Saudi Arabia,Madinah,null,695,83.63
+Spain,Valverde,null,2199,70.20
+Papua New Guinea,Kavieng,null,1428,80.88
+United States of America,Lake Charles-Louisiana,null,779,68.54
+Australia,Cobar,null,385,66.39
+Australia,Lake St Clair,null,1688,46.19
+Canada,Goose Bay-Newfoundland,null,640,31.04
+Mexico,Reynosa,null,1295,74.82
+Israel,Beer Sheva,null,1930,69.36
+Kyrgyzstan,Osh,298454,2172,52.40
+Russian Federation,Elista,108753,1025,49.42
+Ukraine,Lviv,750044,2935,47.38
+Italy,Reggio Calabria,null,2076,64.51
+Nigeria,Abuja,107069,324,79.90
+Myanmar,Hpa-an,421575,2142,83.54
+United States of America,Chandler-Arizona,279458,1969,70.75
+Italy,Catania,298311,2071,63.78
+Bosnia and Herzegovina,Mostar,126628,14,60.71
+China,Shijiazhuang,1969975,550,56.25
+China,Shangqiu,1428983,1851,58.36
+Solomon Islands,Auki,null,295,79.94
+Greece,Alexandroupoli,null,2274,57.40
+Australia,Northam,null,472,64.80
+Brazil,Brasilia,2481272,290,70.44
+China,Yushu,1155670,1868,39.56
+Brazil,Salvador,2674923,1081,77.85
+Mongolia,Uliastai,null,1135,29.67
+France,Nantes,303382,1056,53.93
+Finland,Rovaniemi,null,172,33.07
+Iran (Islamic Republic of),Tabriz,1558693,937,54.03
+United States of America,Lansing-Michigan,112684,780,48.65
+Spain,Santander,172798,1786,58.06
+Ghana,Accra,1594419,921,81.66
+Suriname,Kwamalasemoetoe,null,2083,79.57
+Italy,Bolzano,107655,1945,53.36
+Madagascar,Sainte Marie,null,3006,76.83
+United Republic of Tanzania,Zanzibar,1303569,672,79.29
+Nigeria,Maiduguri,618278,3507,82.53
+France,Brest,139163,1051,52.20
+Australia,Sale,null,490,57.27
+Greece,Kalamata,null,2280,62.93
+United States of America,Grand Junction-Colorado,null,763,52.61
+Italy,Naples (NAPOLI),null,604,60.65
+Sri Lanka,Mannar,null,1059,82.43
+United States of America,Portland-Maine,641162,809,46.40
+Germany,Nuernberg,null,1352,48.31
+Iran (Islamic Republic of),Kerman,537718,941,59.58
+Spain,Bilbao,348294,1233,58.45
+Spain,Lugo,null,1777,53.30
+United States of America,Colorado Springs-Colorado,483956,739,48.91
+South Africa,Port Elizabeth,775255,2990,64.22
+Uzbekistan,Nukus,321152,118,54.11
+Mali,Kayes,149129,130,84.98
+Serbia,Belgrade,null,198,53.96
+Iceland,Reykjavik,129964,189,39.98
+Mongolia,Khovd,null,1137,34.23
+Russian Federation,Novgorod,null,657,39.83
+Colombia,Cucuta,629414,871,80.87
+Colombia,Neiva,314526,877,81.83
+Mexico,Tampico,941957,1298,76.29
+Spain,Vigo,295264,2200,57.20
+Iran (Islamic Republic of),Khoramabad,373416,1453,63.10
+United States of America,Honolulu-Hawaii,null,849,77.65
+Zimbabwe,Marondera,null,958,63.04
+Australia,Redesdale,null,1723,56.68
+Australia,Charters Towers,null,382,75.21
+Australia,Bridport,null,1658,55.82
+Argentina,Mendoza,1033390,856,63.45
+Australia,Cocos Island,null,683,80.53
+Madagascar,Mananjary,null,3003,74.83
+Russian Federation,Omsk,1158627,660,34.76
+United States of America,Amarillo-Texas,201234,715,57.30
+United Kingdom of Great Britain and Northern Ireland,Rhayader,null,1908,48.54
+United States of America,Memphis-Tennessee,628127,790,60.83
+China,Xi'an,4481508,239,57.19
+Libya (State of),Ghadames,null,1194,71.06
+Mongolia,Govi-Altai,null,1138,30.53
+Papua New Guinea,Daru,null,1426,80.69
+Colombia,Valledupar,459349,889,84.23
+Canada,Thunder Bay-Ontario,125247,631,36.43
+Canada,Toronto-Ontario,2974293,264,48.42
+Zimbabwe,Harare,1485231,263,66.01
+United States of America,Spokane-Washington,229071,833,48.08
+Poland,Torun,198628,2170,47.38
+Portugal,Funchal,111541,5,65.65
+Japan,Osaka,2752412,184,62.94
+Madagascar,Fianarantsoa,189879,12,66.78
+Nepal,Okhaldhunga,null,2965,63.25
+Venezuela-Bolivarian Republic of,Maracaibo,1653215,1197,84.02
+Spain,Sevilla,687814,1237,66.80
+United States of America,Athens-Georgia,127358,1957,62.50
+Malaysia,Labuan,null,84,82.31
+Sweden,Umea,111503,3022,38.61
+China,Yinchuan,807487,544,48.40
+United Kingdom of Great Britain and Northern Ireland,Wick,null,1913,46.26
+United States of America,Des Moines-Iowa,212031,748,50.81
+Myanmar,Yay,null,2160,79.03
+Thailand,Bangkok,8305218,233,83.13
+United States of America,Provo-Utah,114084,2024,53.34
+Cyprus,Nicosia,null,1441,68.18
+Egypt,Hurghada,null,1270,75.79
+Slovakia,Poprad,null,1227,44.73
+United States of America,Wilkes Barre-Pennsylvania,null,845,49.34
+Colombia,Arauca,null,867,80.26
+Bhutan,Trashigang,null,2957,61.18
+Colombia,Cali,1822869,158,75.83
+Spain,Santiago de Compostela,null,2196,55.26
+Thailand,Nakhon Ratchasima,653075,573,81.79
+Russian Federation,Ust'ordynskiy,null,1011,29.07
+Spain,Oviedo,218731,1781,55.83
+Colombia,Ibague,500686,873,83.00
+Colombia,Tunja,167991,887,55.79
+Canada,St Johns-Newfoundland,null,642,40.40
+Mexico,Torreon,608836,1301,71.72
+Ghana,Takoradi,97352,1379,80.36
+United States of America,Keene-New Hampshire,null,1995,45.88
+United States of America,Sioux City-Iowa,null,830,48.46
+United States of America,Olympia-Washington,null,2019,50.48
+Burkina Faso,Ouahigouya,124587,1533,84.38
+Australia,Glen Innes,null,1319,57.71
+Bahamas,Freeport,null,1633,75.70
+Dominican Republic,Santo Domingo,965040,281,78.72
+Ethiopia,Awassa,null,163,67.79
+Burundi,Musasa,null,1523,70.78
+Italy,Torino,858057,1952,53.65
+Sudan,Dongola,null,1536,85.86
+United States of America,San Francisco-California,815201,272,57.33
+Iran (Islamic Republic of),Bojnoord,null,1446,55.93
+Australia,Brisbane Airport,null,2068,68.83
+United States of America,Napa-California,null,2011,56.38
+Colombia,Cartagena,887946,161,82.40
+Senegal,Dakar,1056009,244,76.53
+United States of America,Gillette-Wyoming,null,1979,46.11
+Russian Federation,Penza,519948,998,41.35
+Spain,Huelva,143187,1771,64.64
+United States of America,Charleston-West Virginia,151612,733,55.64
+United States of America,Grand Rapids-Michigan,197416,764,49.03
+Uganda,Mbarara,195160,1940,68.52
+Norway,Tromsoe,null,23,36.62
+Paraguay,Pedro Juan Caballero,null,1176,71.51
+Hungary,Budapest,1737026,60,52.25
+Kenya,Makindu,null,1797,72.70
+Costa Rica,Alajuela,321872,285,73.43
+Australia,Meekatharra,null,451,72.75
+Australia,Moorabbin,null,1696,58.73
+Benin,Kandi,null,2210,82.05
+Nigeria,Enugu,407756,3505,81.55
+Suriname,Nieuw Nickerie,null,2085,80.44
+Guinea,Labe,249515,927,71.22
+Mexico,Toluca,2430360,1300,56.10
+Poland,Bialystok,295092,2163,45.05
+Mongolia,Ulaanbaatar,1618231,229,32.52
+Spain,Melilla,null,1778,66.13
+Bangladesh,Rajshahi,449756,1166,78.48
+Ghana,Koforidua,122300,2975,80.77
+United States of America,Augusta-Maine,201196,1959,45.61
+Japan,Sapporo,1973395,181,48.31
+Syrian Arab Republic,Deir Ezzor,null,1262,68.87
+France,Marseille,861635,1055,59.12
+Spain,Granada,232711,1769,59.67
+Canada,Calgary-Alberta,1372178,622,39.30
+Lao People's Democratic Republic,Xiengkhuang,null,1502,69.10
+Spain,Cartagena,216236,2178,65.45
+United States of America,San Diego-California,1381611,826,63.58
+Spain,Leon,123039,1774,51.96
+Russian Federation,Ekaterinburg,1420285,916,36.79
+Finland,Tampere,241009,170,39.25
+Australia,Dartmouth,null,1671,57.30
+Australia,Geeveston,null,1813,52.84
+Australia,Marble Bar,null,1251,82.04
+Australia,Mount Field,null,1818,51.27
+Australia,St Helens,null,494,55.29
+Romania,Cluj-Napoca,303047,2091,48.55
+United States of America,Rockford-Illinois,147711,819,49.13
+Australia,Strahan Town,null,495,53.86
+Senegal,Diourbel,279667,2917,82.72
+Guinea,Mamou,null,926,74.72
+Mali,Segou,133501,132,83.18
+United States of America,Omaha-Nebraska,487300,800,49.53
+Oman,Saiq,null,1416,65.28
+Madagascar,Taolagnaro,null,3008,75.11
+United Kingdom of Great Britain and Northern Ireland,Norwich,194839,40,50.16
+Zimbabwe,Hwange,null,965,69.16
+Spain,Motril,null,2189,66.14
+Iran (Islamic Republic of),Yazd,529673,1461,64.67
+Germany,Oberstdorf,null,1353,44.60
+Australia,Gosford,null,407,63.21
+Viet Nam,Pleiku,null,3028,74.01
+Morocco,Agadir Inezganne,null,3512,67.08
+Spain,Toledo,null,1791,60.40
+Australia,Mount Barker,null,1699,58.11
+Australia,Perth,30971,314,65.41
+Mongolia,Mandalgovi,null,1154,36.73
+Spain,Merida,null,2188,63.11
+Russian Federation,Nevinnomyssk,117949,1033,49.88
+Lesotho,Qacha's Nek,null,1334,57.56
+Romania,Bucharest,null,200,52.09
+United States of America,Richmond-Virginia,115639,816,58.82
+Venezuela-Bolivarian Republic of,Santa Elena De Uairen,null,2064,71.95
+Saudi Arabia,Abha,236157,861,66.16
+Chile,Punta Arenas,136987,105,43.68
+China,Sanya,482296,1850,79.36
+Greece,Herakleion,null,2278,64.93
+Serbia,Zlatibor,null,1392,45.36
+Russian Federation,Cheljabinsk,null,1003,36.49
+Russian Federation,Voronez,null,1020,43.25
+Viet Nam,Ha Tinh,null,3025,77.31
+China,Shantou,1270112,1852,71.47
+United States of America,Sedona-Arizona,null,2036,61.98
+Australia,Wagga Wagga,null,504,60.48
+France,Paris,2206488,194,53.64
+Côte d'Ivoire,Adiake,null,2877,78.65
+Madagascar,Farafangana,null,3000,74.35
+Saudi Arabia,Hail,null,863,71.65
+United States of America,Columbus-Ohio,205617,742,53.34
+Morocco,Rabat-Sale,null,3519,63.79
+Sweden,Stockholm,789024,187,46.60
+Saudi Arabia,Jizan,127743,698,87.22
+Kazakhstan,Astana,1212077,153,35.25
+United States of America,Wichita Falls-Texas,102988,844,63.31
+Canada,Montreal-Quebec,1778528,634,40.97
+Argentina,Salta,643924,2207,63.36
+Armenia,Yerevan,1087886,66,53.3
+Czechia,Prague,1335084,197,50.07
+Venezuela-Bolivarian Republic of,Barquisimeto,881127,2054,77.03
+Türkiye,Konya,null,1365,52.73
+Australia,Darwin Rural,null,1086,80.62
+Bangladesh,Sylhet,null,1165,76.80
+Libya (State of),Sirte,null,1181,68.65
+Russian Federation,Ufa,1084420,659,37.65
+Namibia,Windhoek,429974,1830,67.71
+Turkmenistan,Ashgabat,null,212,62.22
+Germany,Hannover,538068,1347,48.62
+Australia,Tuggeranong,null,1312,56.74
+United States of America,Evansville-Indiana,116486,754,59.96
+Myanmar,Katha,null,2144,77.17
+United States of America,Salt Lake City-Utah,200478,823,52.70
+Australia,Maryborough [VIC],null,1694,57.60
+Australia,Maydena,null,1817,51.27
+Mexico,Ciudad de Mexico,null,279,61.75
+Libya (State of),Ghat,null,1180,74.85
+Mexico,Jalapa,null,1286,67.69
+Venezuela-Bolivarian Republic of,Mene Grande,null,2061,83.35
+Sweden,Sundsvall,null,1044,39.93
+Venezuela-Bolivarian Republic of,Calabozo,null,2055,83.49
+Spain,Ecija,null,2180,63.70
+Côte d'Ivoire,Bondoukou,null,2878,80.01
+Russian Federation,Belgorod,369815,1021,44.00
+Paraguay,Asuncion,513399,292,73.88
+Cyprus,Polis Chrysochous,null,1885,67.25
+Australia,Launceston,67449,435,55.15
+Australia,Broome,null,374,80.23
+Australia,Charleville,null,381,70.10
+Russian Federation,Kostroma,270366,658,38.69
+Nepal,Dhankuta,null,2102,66.83
+Saudi Arabia,Sakaka,null,1890,71.56
+Australia,Clermont,null,384,72.98
+Australia,Moora,null,454,66.11
+Saudi Arabia,Dammam,null,860,80.97
+Spain,Pontevedra,null,1784,58.50
+Ireland,Malin Head,null,331,49.67
+United States of America,Fort Wayne-Indiana,265974,760,50.38
+Zimbabwe,Bulawayo,653337,950,67.07
+United States of America,Brookings-South Dakota,null,1964,43.12
+United States of America,Nashua-New Hampshire,null,2013,48.07
+Ethiopia,Dire Dawa,null,165,70.29
+Ghana,Bole,null,2969,80.75
+Mexico,Hermosillo,970861,1283,76.24
+Iran (Islamic Republic of),Kermanshah,946651,1452,57.11
+Australia,Bicheno,null,1804,56.53
+Australia,Hobart,55250,316,55.52
+Russian Federation,Salehard,null,971,20.12
+Syrian Arab Republic,Lattakia,null,1263,67.22
+Russian Federation,Brjansk,null,979,41.74
+Russian Federation,Magadan,95263,918,26.47
+Australia,Tullamarine,null,517,58.40
+Italy,Pisa,null,2075,58.05
+United States of America,Pueblo-Colorado,112368,812,53.65
+Mexico,Tijuana,2252147,1299,64.48
+Uzbekistan,Tashkent,2694378,115,58.45
+Russian Federation,Kirov,505346,981,36.72
+Nepal,Taplejung,null,3510,62.16
+Ireland,Kilkenny,null,332,49.84
+Russian Federation,Ulan-Ude,413850,1013,31.29
+Russian Federation,Kudymkar,null,999,34.21
+Spain,Puerto del Rosario,null,2192,69.90
+United States of America,San Angelo-Texas,100702,824,65.43
+Sri Lanka,Trincomalee,null,345,83.27
+Canada,Vancouver-British Columbia,693235,266,50.13
+Australia,Halls Creek,null,412,80.53
+United States of America,Bozeman-Montana,null,1963,44.50
+Zimbabwe,Karoi,null,957,67.37
+Slovakia,Zilina,null,1223,48.43
+Spain,Caceres,null,1760,61.35
+Botswana,Maun,null,1544,73.56
+Cyprus,Paralimni,null,1884,67.86
+United Republic of Tanzania,Dar Es Salaam,4364541,252,78.46
+Greece,Ioannina,null,2279,56.78
+United States of America,Rochester-Minnesota,121465,2028,45.32
+Rwanda,Kigali,859332,254,70.36
+Spain,Gijon,270306,2184,56.84
+United States of America,Sioux Falls-South Dakota,196528,831,45.65
+Venezuela-Bolivarian Republic of,La Canada,null,2058,84.46
+Jamaica,Montego Bay,111037,99,78.90
+Ecuador,Guayaquil,2291158,2048,79.58
+Myanmar,Pathein,287071,2152,81.48
+El Salvador,Santa Ana,278743,1186,76.84
+Australia,Katoomba,null,426,54.38
+Australia,Kempsey,null,428,65.65
+Myanmar,Kalewa,null,2143,78.60
+Syrian Arab Republic,Qamishli,null,1265,66.14
+United States of America,Seattle-Washington,733919,277,52.60
+Lesotho,Teyateyaneng,null,1339,60.70
+Zimbabwe,Mutare,262124,954,66.63
+Papua New Guinea,Vanimo,null,1432,81.63
+Austria,Innsbruck,132110,905,48.83
+Rwanda,Rubavu,null,1510,68.45
+Ukraine,Luhansk,null,2941,48.93
+Iran (Islamic Republic of),Sanandaj,412767,1456,55.69
+United States of America,Carson City-Nevada,null,1967,50.87
+Iran (Islamic Republic of),Zanjan,430871,1462,51.76
+China,Tianshui,1146986,1860,53.00
+Australia,Port Augusta,null,479,66.45
+Australia,Wudinna,null,1217,63.67
+United States of America,Little Rock-Arkansas,201998,784,62.62
+Colombia,Ipiales,105517,1644,51.45
+Brazil,Fortaleza,862750,1068,80.03
+Indonesia,Biak,null,652,80.14
+China,Urumqi,1753298,543,45.52
+Australia,Brisbane,1272999,320,70.46
+Argentina,Iguazu,null,857,71.06
+Australia,Devonport,null,394,54.55
+Australia,Moree,null,457,67.00
+Benin,Natitingou,null,2212,82.00
+China,Qiqihaer,1540089,1848,39.52
+Mozambique,Maputo,966837,128,73.19
+Russian Federation,Saratov,838321,915,44.16
+Brazil,Porto Alegre,1409351,1076,68.31
+Burundi,Ngozi,null,1520,61.67
+France,Strasbourg,277270,1057,50.80
+United States of America,Flint-Michigan,101030,758,47.30
+Hungary,Pecs,141040,64,52.22
+Ukraine,Donetsk,null,2939,49.21
+Russian Federation,Juzhno-Sahalinsk,null,1017,36.84
+Eswatini,Manzini,null,913,68.16
+Senegal,Cap Skirring,null,2916,79.26
+China,Zhengzhou,2589387,552,58.25
+Cuba,Havana,null,280,77.36
+Belarus,Minsk,2020133,205,42.74
+China,Chongqing,9691901,349,64.76
+Israel,Eilat,null,46,77.79
+Spain,Albacete,173529,1755,58.84
+Spain,Santa Cruz De Tenerife,208878,304,70.71
+United States of America,Racine-Wisconsin,null,2025,47.49
+Romania,Sulina,null,2097,53.58
+Cameroon,Bertoua,88462,1518,75.76
+Dominican Republic,Puerto Plata,118496,595,77.08
+China,Shaoguan,535979,1853,69.23
+Colombia,Medellin,2372330,159,72.18
+Iran (Islamic Republic of),Zahedan,587730,942,64.73
+United States of America,McComb-Mississippi,null,2004,65.59
+Libya (State of),Sebha,null,1195,72.79
+Australia,Lismore,null,439,66.82
+Mexico,Huatulco,null,1284,80.36
+Madagascar,Maintirano,null,3002,79.94
+Russian Federation,Anadyr',null,975,18.72
+Viet Nam,Lao Cai,null,3026,76.34
+United States of America,Jonesboro-Arkansas,null,1990,59.12
+Bhutan,Paro,null,1273,56.52
+Iran (Islamic Republic of),Rasht,679995,1455,60.67
+United States of America,San Jose-California,983489,852,61.48
+Nepal,Janakpur,null,2963,76.95
+Iran (Islamic Republic of),Shiraz,1565572,936,63.33
+South Africa,Cape Town,433688,138,62.01
+Mongolia,Kharkhorin,null,1144,36.08
+Papua New Guinea,Port Moresby,364125,1246,81.16
+Paraguay,Encarnacion,null,1177,70.20
+United States of America,Miami-Florida,439890,267,76.80
+Colombia,San Andres-Island,null,885,81.66
+Australia,Orbost,null,476,58.53
+Australia,Robe,null,1253,58.76
+Madagascar,Antsohihy,null,2998,80.64
+Mali,Gao,null,135,85.95
+Brazil,Goiania,1296324,1069,74.79
+Lesotho,Moshoeshoe I,null,3511,60.10
+Mozambique,Tete,101984,123,80.01
+Nigeria,Port-Harcourt,null,325,80.10
+Qatar,Dukhan,null,1881,81.44
+Senegal,Tambacounda,null,2930,84.64
+United Kingdom of Great Britain and Northern Ireland,Swansea,270506,1910,51.70
+Russian Federation,Jakutsk,null,917,13.87
+Mongolia,Ulgii,null,1133,34.56
+Costa Rica,Guapiles,null,1120,75.95
+Austria,Vienna,null,17,51.12
+Bhutan,Bhur,null,2954,74.46
+Dominican Republic,Montecristi,null,594,79.70
+Myanmar,Sagaing,null,2155,81.52
+China,Nanchang,1844253,555,64.49
+Spain,Salamanca,144047,1785,55.90
+Rwanda,Ngoma,null,1505,69.84
+Malaysia,Sandakan,205711,91,81.48
+Russian Federation,Lipeck,null,996,42.06
+Australia,Dover,null,1809,52.88
+Australia,Geelong,264866,402,56.84
+Malaysia,Kuantan,424425,83,81.08
+Spain,Logrono,151646,1776,57.02
+United States of America,Allentown-Pennsylvania,125944,714,51.08
+Australia,Seymour,null,492,58.64
+Iran (Islamic Republic of),Esfahan,1961260,935,61.20
+United Kingdom of Great Britain and Northern Ireland,Aberdeen,207932,1893,47.26
+Hungary,Miskolc,151798,62,50.30
+Australia,Casterton,null,1662,57.54
+Mongolia,Undurkhaan,null,1151,32.28
+United Kingdom of Great Britain and Northern Ireland,Manchester,510746,31,48.83
+Venezuela-Bolivarian Republic of,Caracas,2082130,288,73.63
+Benin,Bohicon,null,2209,82.06
+China,Siping,492841,1856,44.56
+Saint Lucia,Vieux-Fort,null,1248,81.05
+Slovakia,Sliac,null,1225,48.89
+Spain,Palma de Mallorca,null,1236,61.75
+United Kingdom of Great Britain and Northern Ireland,Enniskillen,null,1901,49.24
+Mexico,Merida,1377502,1290,79.76
+Spain,Teruel,null,1790,53.84
+Colombia,Pereira,409670,879,70.93
+Costa Rica,Quepos,null,1129,80.28
+Mongolia,Choibalsan,null,1152,29.38
+Chile,Concepcion,234005,2202,55.39
+Dominican Republic,San Juan,null,597,76.60
+United States of America,Stamford-Connecticut,136309,2039,52.17
+Panama,Bocas del Toro,null,1245,79.56
+Greece,Chios,null,2277,61.73
+Iran (Islamic Republic of),Ilam,194030,1451,62.38
+Russian Federation,Niznij Novgorod,null,988,39.83
+China,Tianjin,7499181,353,55.36
+Qatar,Doha,1186023,221,80.86
+Brazil,Rio De Janeiro,6320446,1080,75.34
+Australia,Adventure Bay,null,1801,52.88
+Australia,Bowen,null,370,75.33
+Brazil,Porto Velho,369259,1077,78.79
+Canada,Prince George-British Columbia,null,619,39.09
+Morocco,Casablanca,null,179,65.41
+Indonesia,Medan,2435252,647,81.70
+Vanuatu,Lenakel,null,1470,75.89
+Kuwait,Kuwait City,32403,1498,80.80
+United States of America,South Bend-Indiana,103353,832,49.75
+Saudi Arabia,Arar,null,1887,71.94
+United States of America,Raleigh & Durham-North Carolina,null,813,60.76
+Russian Federation,Rjazan',null,992,40.98
+United Kingdom of Great Britain and Northern Ireland,Armagh,null,1895,49.37
+Trinidad and Tobago,Port of Spain (Trinidad),null,100,80.50
+United States of America,Bangor-Maine,null,1961,44.21
+Australia,Broken Hill,null,373,65.30
+United States of America,Chicago-Illinois,2696555,274,49.82
+Venezuela-Bolivarian Republic of,Merida,248410,1201,68.65
+Kenya,Lamu,null,1796,80.67
+Zimbabwe,Victoria Falls,null,962,70.49
+Australia,Geraldton,null,403,67.82
+Australia,Bellerive,null,1654,55.34
+Australia,Marrawah,null,1816,54.97
+Australia,Mount Gambier,null,1703,57.05
+Panama,Los Santos,null,1243,81.34
+Slovenia,Ljubljana,287497,54,126.4
+Sweden,Lulea,null,3020,37.04
+Slovakia,Bratislava,435296,41,52.25
+Australia,Paraburdoo,null,477,78.33
+Uruguay,Punta Del Este,null,326,61.75
+Poland,Lublin,341591,2167,46.19
+Türkiye,Samsun,null,52,58.03
+Malaysia,Sibu,null,90,81.38
+Malta,Luqa-Malta,null,42,65.49
+Lesotho,Semonkong,null,1341,50.68
+Australia,Merredin,null,452,64.83
+India,Ludhiana,1618879,1604,75.73
+Lesotho,Mafeteng,null,1331,59.02
+Canada,Windsor-Ontario,230329,633,48.97
+Russian Federation,St. Petersburg,4990602,203,41.15
+Serbia,Kragujevac,175716,1388,52.12
+Indonesia,Manado,410481,651,79.76
+Lesotho,Thaba-Tseka,null,1340,54.55
+Canada,Whitehorse-Yukon Territories,null,614,30.77
+Australia,Longerenong,null,1690,58.59
+Finland,Turku,194391,169,41.45
+Australia,Walpeup,null,1744,62.12
+Bosnia and Herzegovina,Sarajevo,527049,13,51.95
+Ghana,Kete-Krachi,null,1383,82.53
+Switzerland,Lugano,150105,313,53.50
+Ireland,Galway,null,948,50.78
+Italy,Piacenza,103495,2074,53.87
+Ethiopia,Bahir Dar,null,164,68.04
+Sudan,Port Sudan,null,1535,83.30
+United Arab Emirates,Abu Dhabi,null,222,80.52
+Madagascar,Mahajanga,244722,11,80.58
+Australia,Lake Eildon,null,1687,57.58
+Australia,Laverton [VIC],null,1257,58.33
+Burundi,Bujumbura,497169,1519,75.50
+Mauritius,Plaisance,null,247,74.80
+Russian Federation,Kazan',null,986,39.03
+United States of America,Charlotte-North Carolina,879709,734,59.79
+Brazil,Belem,143474,1061,80.13
+Spain,Jaca,null,2185,53.99
+Mexico,Ixtapa Zihuatanejo,null,1285,79.53
+United States of America,Rapid City-South Dakota,null,814,47.91
+Czechia,Liberec,104261,2162,46.36
+Dominican Republic,Punta Cana,null,596,79.29
+Italy,Pescara,119314,1950,57.88
+Maldives,Male',null,228,82.78
+South Africa,Durban,595061,137,69.46
+Sweden,Borlange,null,3019,42.27
+Kenya,Eldoret,475659,854,62.42
+Australia,Carnarvon,null,379,72.27
+Australia,Cooma,null,390,53.10
+Australia,Strathbogie,null,1733,54.27
+Kenya,Nairobi,4395749,251,63.83
+Iran (Islamic Republic of),Yasouj,null,1460,59.33
+Spain,Santa Cruz de La Palma,null,2195,69.34
+Australia,Tarraleah,null,1734,47.83
+Spain,A Coruna,246536,1231,58.67
+United States of America,Albuquerque-New Mexico,562599,713,57.09
+Germany,Koeln,null,56,49.99
+Thailand,Khon Kaen,703123,571,81.50
+Morocco,Fes,null,3515,63.80
+Morocco,Oujda,null,3518,64.30
+Colombia,Rionegro,25266,1647,63.10
+Australia,Nowra,null,473,61.33
+Greece,Samos,null,2287,64.05
+Tajikistan,Khorog,null,911,49.05
+South Africa,Upington,null,2993,69.97
+Australia,Watsonia,null,516,58.59
+Benin,Save,null,2217,82.73
+Saudi Arabia,Najran,298288,1889,77.17
+Italy,Verona,258559,2077,55.24
+Canada,Sydney-Nova Scotia,null,638,41.93
+Poland,Warsaw,null,24,47.36
+Spain,Valladolid,298520,1239,54.90
+Nigeria,Yola,null,2052,83.47
+Zimbabwe,Beitbridge,null,963,73.75
+Sudan,Kassala,null,1537,85.65
+Russian Federation,Perm',null,1000,35.93
+United States of America,Gulfport-Mississippi,null,1983,67.67
+Slovakia,Kosice,238676,1228,49.88
+Iraq,Mosul,664221,1467,68.54
+Australia,Goulburn,null,408,56.51
+Iran (Islamic Republic of),Sari,309820,1457,64.17
+Russian Federation,Rostov-Na-Donu,1100091,1024,50.08
+Slovakia,Hurbanovo,null,1224,52.66
+Mauritius,Port Louis,145005,1219,77.96
+Russian Federation,Kursk,425950,1019,42.55
+Japan,Nagoya,2332176,355,61.28
+Kenya,Marsabit,null,1799,68.04
+Qatar,Al-Ruwais,null,1882,79.66
+Tajikistan,Khujand,162825,910,58.47
+United Kingdom of Great Britain and Northern Ireland,Aberystwyth,null,1894,50.15
+Australia,Port Pirie,null,483,65.28
+Thailand,Tak,146769,568,82.22
+Mexico,Villahermosa,850972,1303,81.00
+United Arab Emirates,Ras Al Khaimah,null,1191,81.23
+Australia,Latrobe Valley,null,434,57.25
+Australia,Bathurst,null,364,56.18
+Armenia,Kapan,null,69,47.65
+Argentina,Ushuaia,null,859,42.85
+South Sudan,Juba,null,1541,82.46
+Spain,Reus,106126,2193,59.97
+Burundi,Nyanza Lac,null,1524,74.80
+Sri Lanka,Colombo,647100,227,81.28
+Uganda,Kabale,null,1938,63.08
+United States of America,Great Falls-Montana,null,765,44.54
+Italy,Campobasso,null,1946,54.07
+Denmark,Copenhagen,null,190,46.48
+Australia,Rockhampton,null,487,73.18
+Mozambique,Xai-Xai,null,127,73.41
+United States of America,Eugene-Oregon,175096,753,52.43
+Nigeria,Lagos,5195247,258,80.04
+Burkina Faso,Bobo Dioulasso,904920,1526,81.10
+Russian Federation,Barnaul,686306,1009,36.26
+Madagascar,Antananarivo,1275207,7,67.05
+United States of America,Lexington-Kentucky,null,782,55.53
+Cyprus,Larnaka Airport,null,202,68.32
+Australia,Whyalla,null,508,63.64
+Australia,Ararat,null,1650,55.56
+Australia,Bowral,null,371,56.35
+Germany,Freiburg,null,1346,52.35
+Ghana,Goaso,null,2972,79.63
+Russian Federation,Krasnojarsk,null,661,34.31
+Ethiopia,Addis Ababa,2739551,162,61.21
+United Republic of Tanzania,Tanga,187455,671,79.46
+Russian Federation,Krasnodar,861181,1027,53.68
+United States of America,Columbia-South Carolina,104681,740,66.65
+Israel,Mizpe Ramon,null,1933,64.69
+Poland,Zielona Gora,141631,2171,48.41
+United Kingdom of Great Britain and Northern Ireland,Bala,null,1896,47.88
+Netherlands,Amsterdam (Schiphol),null,143,49.53
+Australia,Lithgow,null,687,54.14
+China,Dalian,3245191,560,51.35
+Ethiopia,Bale Robe,null,1919,59.75
+Russian Federation,Tula,496656,991,41.27
+Australia,Kalbarri,null,421,70.10
+Australia,Kerang,null,1682,61.54
+United Kingdom of Great Britain and Northern Ireland,Ullapool,null,1912,44.52
+Uganda,Tororo,null,1941,72.67
+China,Dali,521169,1834,59.86
+Colombia,Barranquilla,1120103,160,82.94
+Portugal,Lisboa,509564,2,62.27
+United States of America,Boise-Idaho,null,725,52.38
+Argentina,Trelew,null,2208,56.72
+Australia,Ravensthorpe,null,484,61.86
+Russian Federation,Blagovescensk,null,1015,34.10
+China,Naqu,null,1846,30.89
+Estonia,Tartu,95776,1927,41.93
+Netherlands,Vlissingen,null,146,50.92
+Mexico,Ciudad Juarez,1552319,1278,64.90
+Vanuatu,Lakatoro,null,1469,78.71
+Australia,Canberra,431380,302,55.32
+Cambodia,Siem Reap,null,347,82.75
+Myanmar,Dawei,125605,2139,80.12
+Bhutan,Bumthang,null,1275,53.39
+Guinea,Kissidougou,null,932,76.14
+Mongolia,Arvaikheer,null,1143,35.77
+South Africa,Witbank,null,2994,62.33
+South Africa,Mafikeng,null,2986,66.62
+Armenia,Jermuk,null,2080,40.07
+Australia,Alice Springs,null,323,70.25
+Australia,Exmouth,null,401,76.60
+Ghana,Kintampo,null,2974,80.47
+United States of America,Newark-Delaware,307220,2015,55.50
+Russian Federation,Orel,318642,995,41.38
+United States of America,Las Vegas-Nevada,646790,781,69.34
+Italy,Bari,316244,600,60.58
+Italy,Crotone,null,1947,61.20
+Guinea,Koundara,null,928,82.18
+Russian Federation,Arhangel'sk,null,914,33.66
+Israel,Lod,null,1932,70.08
+United Republic of Tanzania,Dodoma,2083588,667,73.00
+Zimbabwe,Masvingo,null,961,66.68
+Russian Federation,Orenburg,571041,1029,40.77
+Hungary,Debrecen,201043,63,51.18
+Germany,Saarbruecken,null,1356,48.75
+Burkina Faso,Dedougou,38862,1528,83.65
+Chile,Santiago,527014,103,60.36
+Italy,Perugia,164800,1949,55.77
+Russian Federation,Smolensk,330451,978,40.43
+United Kingdom of Great Britain and Northern Ireland,Bangor,null,1897,51.16
+United Kingdom of Great Britain and Northern Ireland,Leeds,474632,39,47.19
+Côte d'Ivoire,Odienne,null,2881,78.81
+Russian Federation,Saransk,326473,993,39.86
+Saudi Arabia,Sharurah,null,1891,81.97
+Australia,Hamilton,null,413,55.94
+Australia,Scottsdale,null,1730,54.24
+Cameroon,Yaounde,1817524,257,75.50
+Croatia,Dubrovnik,null,74,61.85
+Ireland,Offaly,null,1916,49.63
+Nepal,Jumla,null,2964,55.07
+Mexico,Acapulco,850423,1207,82.18
+Belize,Belmopan City,null,1087,78.14
+China,Hangzhou,2451319,556,62.15
+Fiji,Nadi,null,94,77.92
+China,Chengdu,4333541,547,61.89
+United States of America,Concord-New Hampshire,124074,743,46.30
+United Kingdom of Great Britain and Northern Ireland,Newcastle,null,29,49.48
+Canada,Banff-Alberta,null,623,37.43
+Canada,Prince Rupert-British Columbia,null,616,44.78
+Nepal,Kathmandu,975453,114,64.83
+United Arab Emirates,Dubai,null,1190,80.88
+Mexico,Queretaro,1701124,1294,65.86
+Papua New Guinea,Rabaul,null,1431,81.04
+Benin,Parakou,255478,2214,81.93
+Australia,Scoresby,null,1193,58.69
+Rwanda,Gicumbi,null,1506,65.06
+Tajikistan,Kurgan-Tube,null,909,61.64
+Poland,Szczecin,399831,584,48.59
+Croatia,Split,178102,73,61.06
+Mongolia,Darkhan,null,1148,33.67
+Mexico,Puebla,null,1293,62.83
+United States of America,Bowling Green-Kentucky,null,1962,57.91
+Myanmar,Sittwe,null,2156,78.95
+Myanmar,Pyay,null,2154,82.39
+United States of America,Annapolis-Maryland,null,1956,58.97
+Ghana,Sunyani,null,1382,79.36
+Belize,Belize City,null,148,79.26
+China,Jinan,2999934,551,58.53
+Nepal,Pokhara,255465,2104,69.99
+Paraguay,Mariscal Jose Felix Estigarribia,null,1178,76.74
+Colombia,San Jose Del Guaviare,null,1648,80.62
+Germany,Munich,null,58,47.43
+Uganda,Arua,null,1936,73.02
+Poland,Gdansk,472094,25,46.73
+Türkiye,Diyarbakir,null,1363,60.17
+Belgium,Brussels,1561395,191,50.50
+Australia,Narrogin,null,467,61.23
+Brazil,Joao Pessoa,720954,1070,78.18
+United States of America,Sitka-Alaska,null,2037,45.25
+Belgium,St. Hubert,null,946,45.31
+China,Baotou,1671181,1833,45.49
+Spain,Pamplona/Iruna,203512,1783,55.58
+Russian Federation,Cheboksary,473189,989,38.71
+Australia,Kyabram,null,1685,59.43
+Australia,Christmas Island,null,681,77.20
+Australia,Latrobe,null,1814,54.55
+Russian Federation,Mahackala,null,1038,54.50
+United States of America,Grand Forks-North Dakota,null,1980,40.08
+Mali,Sikasso,226618,131,80.84
+United States of America,Baton Rouge-Louisiana,222185,721,68.41
+Venezuela-Bolivarian Republic of,Maiquetia,null,1199,80.35
+Spain,Guadalajara,null,1770,56.03
+United States of America,Akron-Ohio,189347,711,51.78
+United States of America,Watertown-South Dakota,null,2044,42.92
+British Caribbean Territories,Cayman Islands,null,96,79.22
+Guinea,Kankan,190722,929,79.75
+Kenya,Embu,null,1794,71.25
+Lesotho,Mejametala,330760,1330,60.41
+Mongolia,Sainshand,null,1157,40.61
+United States of America,Rutland-Vermont,null,2033,44.53
+Thailand,Phetchabun,172275,569,81.87
+Thailand,Ubon Ratchathani,411954,572,81.26
+United States of America,Lincoln-Nebraska,292657,783,51.50
+Iran (Islamic Republic of),Gorgan,350676,1449,63.91
+Netherlands,Groningen,200336,142,48.00
+Switzerland,Geneva,null,193,49.87
+Germany,Erfurt,213699,1344,47.09
+United Kingdom of Great Britain and Northern Ireland,Cambridge,131465,1899,50.71
+Canada,Regina-Saskatchewan,238591,629,37.10
+Australia,Kyancutta,null,432,62.84
+Germany,Stuttgart,634830,1357,49.97
+Colombia,Manizales,400436,875,61.96
+Myanmar,Mandalay,1225546,588,81.02
+Poland,Olsztyn,173624,2168,45.82
+United States of America,Cedar Rapids-Iowa,136467,1968,50.21
+Malaysia,Kota Kinabalu,257029,81,81.47
+Guinea,Boke,185548,925,81.17
+Sweden,Malmo,278522,1041,48.48
+Hungary,Gyor,133340,61,51.57
+Colombia,Quibdo,120679,883,80.31
+Australia,Roebourne,null,1210,81.94
+Canada,Charlottetown-Prince Edward Island,null,639,41.53
+Russian Federation,Novosibirsk,1511369,1007,36.25
+Oman,Sohar,228326,1418,79.71
+India,Goa,null,528,81.04
+Macao-China,Macao,685400,156,72.82
+Australia,Ayr / Home Hill,null,360,74.68
+Australia,Augusta,null,359,61.83
+Australia,Keith,null,427,60.44
+United States of America,Idaho Falls-Idaho,null,1987,45.93
+China,Wuhan,8312700,351,62.18
+Colombia,Gaviotas,null,1643,80.06
+Cyprus,Prodromos,null,1886,56.38
+Madagascar,Toliara,169760,10,77.00
+Russian Federation,Vladimir,349525,987,40.18
+Guyana,Ebini,null,1491,80.03
+Greece,Thessaloniki,315196,178,59.06
+Australia,Liverpool,null,440,63.39
+China,Datong,1526744,1836,45.10
+Nigeria,Benin,null,3504,81.97
+Morocco,Errachidia,null,3514,68.48
+Zimbabwe,Kadoma,null,952,69.98
+Colombia,Monteria,433723,876,82.31
+Syrian Arab Republic,Aleppo,null,1261,63.25
+Italy,Venice (VENEZIA),null,606,55.39
+Iran (Islamic Republic of),Hamedan,null,1450,51.23
+Australia,Cape Otway,null,1661,57.10
+Russian Federation,Tiksi,null,1040,7.629
+Norway,Kristiansand,null,908,43.95
+Zimbabwe,Mount Darwin,null,956,69.29
+Uganda,Entebbe,null,1329,71.62
+United States of America,Huntington-West Virginia,null,1986,55.97
+Australia,Bendigo,119980,366,57.76
+Indonesia,Surabaya,2874314,648,81.98
+Spain,Avila,null,1757,52.44
+Mali,Kidal,null,136,83.95
+Romania,Sibiu,425906,2096,48.65
+Russian Federation,Ulyanovsk,637637,994,39.87
+Trinidad and Tobago,Scarborough (Tobago),null,101,80.37
+Greece,Anchialos (Volos),null,2275,60.04
+Mali,Tombouctou,null,134,84.01
+Oman,Sur,118690,1419,85.40
+Madagascar,Antsiranana,131165,9,79.08
+Poland,Klodzko,null,2164,46.02
+Syrian Arab Republic,Homs,null,1267,62.51
+Nigeria,Kano,2166554,2050,80.25
+Sri Lanka,Ratnapura,null,344,81.43
+Australia,Ouyen,null,1715,62.38
+Burkina Faso,Fada Ngourma,null,1530,82.95
+Thailand,Ko Samui,null,577,82.27
+Kuwait,Kuwait Airport,null,217,78.63
+South Africa,Rustenburg,null,2992,66.53
+Spain,Soria,null,1788,51.89
+United States of America,Springfield-Illinois,113394,834,52.94
+Czechia,Ostrava,284982,920,48.44
+Spain,Arrecife,null,2176,70.01
+Sweden,Kiruna,null,1045,31.10
+Greece,Kastoria,null,2281,53.28
+Australia,Coffs Harbour,null,386,66.03
+Australia,Coonawarra,null,391,57.46
+Australia,Weeaproinah,null,1746,52.00
+Colombia,Florencia,156789,872,78.94
+Rwanda,Nyamagabe,null,1511,65.84
+United States of America,Montgomery-Alabama,198665,793,65.03
+Senegal,Linguere,null,2923,84.73
+Lithuania,Kaunas,291321,607,44.95
+El Salvador,Nueva Concepcion,null,1189,81.28
+United States of America,Paducah-Kentucky,null,802,59.06
+Mongolia,Bulgan,null,1145,31.66
+United Kingdom of Great Britain and Northern Ireland,Edinburgh,482005,33,48.66
+Germany,Dresden,554649,1343,48.92
+Israel,Jerusalem,943787,43,64.63
+Spain,Tarifa,null,2908,61.88
+Hong Kong-China,Hong Kong,7413100,1,74.84
+Ethiopia,Gode,null,1920,83.63
+China,Xuzhou,1679626,1864,58.72
+Côte d'Ivoire,Bouake,536719,2879,79.17
+United States of America,Cheyenne-Wyoming,null,736,46.37
+Madagascar,Besalampy,null,2999,79.79
+Australia,Lajamanu,null,1686,78.47
+Netherlands,Twenthe,null,145,48.42
+United States of America,Columbus-Georgia,205617,741,65.60
+United States of America,Houston-Texas,2288250,770,69.83
+United States of America,Elkins-West Virginia,null,751,50.18
+Guinea,Macenta,null,933,75.57
+Myanmar,Yangon,5211431,232,81.40
+United States of America,Savannah-Georgia,147088,828,66.70
+Mexico,Mexicali,1074576,1291,73.50
+Türkiye,Trabzon,null,1369,58.67
+Myanmar,Lashio,null,2146,71.89
+Malaysia,Kuala Lumpur,1853918,82,82.06
+China,Changsha,2122873,554,63.81
+Denmark,Nuuk,null,583,29.53
+Myanmar,Taungoo,null,2157,80.61
+Lesotho,Mohale's Hoek,null,1332,60.16
+United States of America,West Palm Beach-Florida,117286,843,75.34
+Netherlands,Den Helder,null,141,49.15
+Seychelles,Victoria,26450,253,81.32
+Spain,Zaragoza,678589,1240,60.03
+Belgium,Kleine Brogel,null,945,49.59
+Brazil,Florianopolis,249477,1067,69.43
+Australia,Bourke,null,369,68.62
+Australia,Adelaide,26177,315,63.10
+Australia,Esperance,null,399,62.55
+Australia,Wyndham,null,1212,85.04
+Brazil,Belo Horizonte,1433244,1062,71.38
+Ethiopia,Jimma,null,166,67.04
+South Africa,Johannesburg,957441,139,60.79
+United States of America,Colchester-Vermont,null,1972,45.34
+Ecuador,Quito,1619146,291,60.03
+Italy,Florence (FIRENZE),null,602,58.74
+Bhutan,Mongar,null,1276,64.29
+China,Nanning,1766701,558,72.28
+Thailand,Mae Hong Son,30928,565,79.78
+China,Hefei,1659075,553,60.95
+United States of America,Kansas City-Kansas,154545,1992,56.63
+France,Le Lamentin,null,307,79.19
+Brazil,Teresina,767559,1084,81.66
+Colombia,Villavicencio,451212,890,79.21
+Lao People's Democratic Republic,Pakse,null,646,80.94
+Lithuania,Panevezys,null,1549,44.58
+Türkiye,Nevsehir,null,1367,51.05
+Rwanda,Huye,null,1512,67.31
+Burkina Faso,Ouagadougou Aero,null,1532,83.14
+Australia,Woomera,null,511,67.11
+United States of America,Madison-Wisconsin,269196,788,46.35
+Costa Rica,Nicoya,null,1127,80.78
+Venezuela-Bolivarian Republic of,Barcelona,326460,2053,81.47
+United States of America,Pierre-South Dakota,null,2023,47.28
+Bahamas,Inagua,null,1634,79.78
+Spain,Cordoba,324055,1765,64.55
+China,Tangshan,1711311,1859,53.30
+Bangladesh,Chittagong,2591681,1164,78.56
+Australia,Eucla,null,400,63.86
+Australia,Parkes,null,478,63.37
+Mali,Mopti,120786,133,83.50
+Uganda,Kampala,1507114,1328,72.85
+United States of America,Boston-Massachusetts,654776,273,51.38
+Jordan,Irbid,1770158,590,63.90
+United Kingdom of Great Britain and Northern Ireland,Guernsey,null,1373,51.86
+Russian Federation,Tura,null,974,16.01
+United Kingdom of Great Britain and Northern Ireland,Carlisle,null,1900,48.97
+Malaysia,Ipoh,null,77,82.66
+Germany,Leipzig,587857,1350,48.90
+Iran (Islamic Republic of),Bushehr,223504,940,75.90
+United States of America,Providence-Rhode Island,189692,811,51.54
+United States of America,Lubbock-Texas,260993,786,60.60
+Germany,Kiel,247548,1349,48.23
+Australia,Swansea,null,497,54.96
+Gambia (The),Banjul,null,140,78.74
+United States of America,Parkersburg-West Virginia,null,2022,54.68
+Jamaica,Kingston,592291,98,80.89
+Papua New Guinea,Wewak,null,1433,81.13
+Republic of Korea,Gwangju,1487675,335,57.09
+Mongolia,Bayankhongor,null,1139,33.59
+Malaysia,Johor Bahru,null,78,80.83
+China,Guangzhou,8524826,241,72.39
+Lao People's Democratic Republic,Vientiane,698318,235,79.58
+Thailand,Pattaya,null,575,82.53
+Poland,Rzeszow,194775,2169,47.22
+Germany,Rostock,208886,1355,48.29
+Belgium,Ostend,null,944,49.44
+Australia,Cape Byron,null,378,68.12
+Australia,Yuendumu,null,1752,73.59
+Bulgaria,Varna,332394,919,54.62
+Denmark,Torshavn,null,582,43.78
+Mexico,Culiacan,null,1282,76.76
+El Salvador,San Salvador,200319,282,143.8
+Poland,Koszalin,105714,2165,47.33
+China,Guiyang,2985105,548,60.80
+Poland,Lodz,677864,2166,47.22
+Vanuatu,Port Vila,50944,673,76.75
+Portugal,Porto,216746,3,58.09
+Burundi,Gitega,null,1521,66.56
+Canada,Iqaluit-Nunavut,null,613,14.38
+Saudi Arabia,Buraydah,467410,1888,76.81
+Brazil,Cuiaba,220859,1065,79.93
+Germany,Trier,110636,1358,49.52
+Russian Federation,Chita,329868,1012,28.07
+Kenya,Garissa,132997,1795,83.37
+Mexico,San Luis Potosi,null,1297,63.59
+Israel,Tel Aviv,null,44,68.43
+Israel,Tiberias,null,45,73.93
+Mozambique,Chimoio,171056,125,70.26
+Spain,Donostia/San Sebastian,188171,1767,56.35
+Greece,Aktion (Preveza),null,2273,62.17
+Iran (Islamic Republic of),Semnan,185129,1458,64.58
+Kyrgyzstan,Bishkek,1071261,210,51.59
+North Macedonia,Ohrid,null,1499,52.59
+Tajikistan,Dushanbe,770027,211,59.10
+Czechia,Brno,382405,693,48.89
+Spain,Lleida,140241,1775,58.96
+Thailand,Hua Hin,null,576,82.47
+United States of America,Kearney-Nebraska,null,1994,49.43
+Myanmar,Hkamti,null,2140,75.71
+Zimbabwe,Gweru,91806,953,64.27
+Malaysia,Miri,null,87,80.86
+Malaysia,Petaling Jaya,218506,88,82.90
+Poland,Suwalki,null,585,44.18
+United States of America,Springfield-Missouri,113394,835,56.16
+Australia,Port Hedland,null,480,79.93
+Republic of Korea,Busan,3343528,336,58.80
+Austria,Klagenfurt,100817,904,47.44
+Senegal,Kedougou,null,2921,83.27
+China,Shanghai,23019196,240,61.08
+Armenia,Sevan,null,68,37.50
+Argentina,Mar del Plata,null,2206,57.44

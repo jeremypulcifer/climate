@@ -8,6 +8,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonDeserialize(using = CityJsonDeserializer.class)
@@ -31,6 +32,32 @@ public class City {
     private String isDST;
     private Climate climate;
     private Integer population;
+
+    private Range range;
+
+    public Range getRange() {
+        return range;
+    }
+
+    public void setRange(Range range) {
+        this.range = range;
+    }
+
+    public enum Range {
+        HOT(BigDecimal.valueOf(200)), MODERATE(BigDecimal.valueOf(76)), MILD(BigDecimal.valueOf(63)), COLD(BigDecimal.valueOf(52));
+
+        final BigDecimal max;
+        private Range(BigDecimal max) {
+            this.max = max;
+        }
+
+        public static Range getTemperatureRange(BigDecimal temperature) {
+            if (temperature.compareTo(COLD.max) <= 0) return COLD;
+            if (temperature.compareTo(MILD.max) <= 0) return MILD;
+            if (temperature.compareTo(MODERATE.max) <= 0) return MODERATE;
+            return HOT;
+        }
+    }
 
     public City() {}
 
@@ -78,5 +105,22 @@ public class City {
 
     public void setClimate(Climate climate) {
         this.climate = climate;
+    }
+
+    public boolean hasMissingClimateData() {
+        if (climate == null || climate.getClimateMonth() == null || climate.getClimateMonth().isEmpty()) return true;
+        for (ClimateMonth cm : climate.getClimateMonth()) {
+            if (cm.getMaxTempF() == null
+                    || cm.getRaindays() == null
+                    || cm.getRainfall() == null
+                || cm.getMinTempF() == null)
+                return true;
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }

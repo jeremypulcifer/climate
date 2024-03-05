@@ -22,7 +22,7 @@ public class SimilarCityList {
         populationFilter = new PopulationFilter();
         incompleteCityFilter = new IncompleteCityFilter();
     }
-
+    public SimilarCityList() {}
     public List<SimilarCity> findSimilarCities(SimilarCity city, List<City> cities, Integer minPop, Integer maxPop) {
         return cities.stream()
                 .filter(incompleteCityFilter::filterIncompleteCity)
@@ -31,6 +31,12 @@ public class SimilarCityList {
                 .filter(incompleteCityFilter::filterIncompleteSimilarCity)
                 .filter(it -> similarClimateFilter.filterOnlySimilarClimates(it, city))
                 .filter(it -> !it.getCityId().equals(city.getCityId()))
+                .collect(Collectors.toList());
+    }
+
+    public List<SimilarCity> findAllCities(List<City> cities) {
+        return cities.stream()
+                .map(SimilarCity::new)
                 .collect(Collectors.toList());
     }
 }

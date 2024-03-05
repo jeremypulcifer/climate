@@ -24,15 +24,13 @@ import java.util.concurrent.TimeUnit;
  * Simple grab-and-store. There's little (okay, none) testing
  * and only minor performance enhancements, as this is intended
  * to be a once-ever execution, or at most a monthly action.
- *
  * Mongodb is used as the local storage. It would be trivial
  * to move to a relational db, but I can't imagine a compelling
  * reason to do so.
- *
  * Kudos and Acknowledgement must be given to the
  * WMO World Weather Information Service
- * (https://worldweather.wmo.int) as the source of information.
- * WMO Disclaimer: http://worldweather.wmo.int/en/disclaimer.html
+ * (<a href="https://worldweather.wmo.int">...</a>) as the source of information.
+ * WMO Disclaimer: <a href="http://worldweather.wmo.int/en/disclaimer.html">...</a>
  *
  */
 @Service
@@ -49,6 +47,7 @@ public class ClimateLoadService {
     Map<Integer, Integer> populations = new HashMap<>();
 
     private void loadPopulations() {
+        repo.findAll();
         String[] HEADERS = {"id", "population"};
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("cities_cities.csv").getFile());
@@ -62,8 +61,6 @@ public class ClimateLoadService {
                 Integer population = Integer.parseInt(record.get("population"));
                 populations.put(id, population);
             }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -72,11 +69,15 @@ public class ClimateLoadService {
     public Long loadCities() throws IOException, InterruptedException {
         // only execute if there are more than a smaller test set
         long existingCount = repo.count();
-        if (existingCount > 100) return existingCount;
+        if (existingCount > 1000) return existingCount;
+
+        repo.deleteAll();
 
         loadPopulations();
 
         String cityFile = new RestTemplate().getForObject(cityListUrl, String.class);
+
+        log.info("cityFile: {}", cityFile);
 
         String[] HEADERS = {"Country", "City", "CityId"};
 
@@ -90,29 +91,24 @@ public class ClimateLoadService {
                         new LinkedBlockingQueue<>());
         Set<City> cities = new HashSet<>();
         records.forEach(r -> CompletableFuture.supplyAsync(() -> parseFromCsvRecord(r), executorService)
-                .thenAccept(cities::add));
+                .thenAccept(c -> {if (c != null) cities.add(c);}));
         executorService.shutdown();
         // ok, this is lazy, but as the run takes a bit of time
         // I've not made it a priority to clean this up
         executorService.awaitTermination(5L, TimeUnit.MINUTES);
-        // due to the limitations of the apache csv library, I need
-        // to capture the exception case, as indicated by a city with
-        // a cityId == 0, and discard.
-        cities.remove(falseCity);
         repo.saveAll(cities);
         return repo.count();
     }
-
-    private City falseCity = new City(0);
 
     private City parseFromCsvRecord(CSVRecord csvRecord) {
         // there's a footer line to ignore. Could configure the CSV parser, but this is easier
         if (csvRecord.size() < 3) {
             log.info("Invalid CSVRecord:" + csvRecord);
-            return falseCity;
+            return null;
         }
         log.info("Getting climate data for id {}, {}/{}", csvRecord.get(2), csvRecord.get(0), csvRecord.get(1));
         City city = getCity(Integer.valueOf(csvRecord.get(2)));
+        if (city == null || city.hasMissingClimateData()) return null;
         city.setCountry(csvRecord.get(0));
         Integer population = populations.get(city.getCityId());
         if (population != null)
@@ -120,13 +116,14 @@ public class ClimateLoadService {
         return city;
     }
 
+
     private City getCity(Integer cityId) {
         try {
             return new RestTemplate().getForObject(String.format(citiesUrl, cityId), CityWrapper.class).getCity();
         } catch (Throwable t) {
             log.error("Couldn't create City object from input for city id {}", cityId, t);
             String goofy = new RestTemplate().getForObject(String.format(citiesUrl, cityId), String.class);
-            log.error("goofy record: ", goofy);
+            log.error("goofy record: {}", goofy);
             return null;
         }
     }
