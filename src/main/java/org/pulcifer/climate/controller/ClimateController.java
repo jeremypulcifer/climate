@@ -94,7 +94,7 @@ public class ClimateController {
         response.setContentType("text/plain");
         response.setHeader("Content-Disposition", "attachment;filename=myFile.txt");
         try (ServletOutputStream out = response.getOutputStream()) {
-            out.println("country,city,id,highest avg temp,lowest avg temp,avg-temp,lowest-temp,highest-temp,rain days,rainfall,diff");
+            out.println("country,city,population,id,avg-temp,lowest-temp,highest-temp,rain days,rainfall,diff");
             List<SimilarCity> cities = svc.retrieveSimilarCities(buildSimilarity(cityId, minPop, maxPop, similarityMultiplier));
             for (SimilarCity city : cities) out.println(cityDataAsCSV(city));
             out.flush();
@@ -102,16 +102,19 @@ public class ClimateController {
     }
 
     private String cityDataAsCSV(SimilarCity c) {
-        return String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",
-                c.getCountry().replaceAll(",", "-"), c.getCityName().replaceAll(",", "-").replaceAll("- ", "-"),
+        return String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",
+                c.getCountry().replaceAll(",", "-"),
+                c.getCityName().replaceAll(",", "-").replaceAll("- ", "-"),
                 c.getPopulation(),
                 c.getCityId(),
-                c.getHighestAvgTemperature(),
-                c.getLowestAvgTemperature(),
+//                c.getHighestAvgTemperature(),
+//                c.getLowestAvgTemperature(),
                 c.getAvgTemperature(),
                 c.getLowestTemperature(),
                 c.getHighestTemperature(),
-                c.getRainDays(), c.getRainfall(), c.getDiff());
+                c.getRainDays(),
+                c.getRainfall(),
+                c.getDiff());
     }
     private String citySimpleDataAsCSV(SimilarCity c) {
         return String.format("%s,%s,%s,%s,%s",

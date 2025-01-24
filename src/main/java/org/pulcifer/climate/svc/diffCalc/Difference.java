@@ -2,6 +2,8 @@ package org.pulcifer.climate.svc.diffCalc;
 
 import org.pulcifer.climate.dto.SimilarCity;
 
+import java.math.BigDecimal;
+
 public interface Difference {
-    float calcDiff(SimilarCity city, SimilarCity similarCity);
+    BigDecimal calcDiff(SimilarCity city, SimilarCity similarCity);
 }

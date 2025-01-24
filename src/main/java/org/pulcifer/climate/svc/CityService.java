@@ -35,10 +35,24 @@ public class CityService {
                         , repo.findAll(), similarity.minPop, similarity.maxPop);
     }
 
-    public City setTemperatureRange(Integer cityId) {
+    private City getCity(Integer cityId) {
         Optional<City> existing = repo.findByCityId(cityId);
-        if (existing.isEmpty()) throw new RuntimeException("City not found)");
-        City city = existing.get();
+        if (existing.isEmpty()) throw new RuntimeException("City not found");
+        do {
+            if (existing.isPresent()) {
+                return existing.get();
+            }
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return null;
+            }
+        } while (true);
+    }
+
+    public City setTemperatureRange(Integer cityId) {
+        City city = getCity(cityId);
         SimilarCity simCity = new SimilarCity(city);
         BigDecimal highestTemperature = simCity.getHighestTemperature();
         City.Range temperatureRange = City.Range.getTemperatureRange(highestTemperature);
@@ -46,4 +60,3 @@ public class CityService {
         return city;
     }
 }
-

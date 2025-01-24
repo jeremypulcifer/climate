@@ -14,6 +14,7 @@ import static java.lang.Math.abs;
 
 public class CitySorter {
 
+    BigDecimal hundred = BigDecimal.valueOf(100L);
     private final SimilarCityList similarCityList;
 
     public CitySorter(BigDecimal similarityMultiplier) {
@@ -28,9 +29,13 @@ public class CitySorter {
         return similarCityList.findAllCities(cities);
     }
     public List<SimilarCity> sortCitiesByClimateDifferences(SimilarCity city, List<City> cities, Integer minPop, Integer maxPop) {
-        city.setDiffScore(0);
+        city.setDiffScore(new BigDecimal(111));
         var similarCities = similarCityList.findSimilarCities(city, cities, minPop, maxPop);
-        similarCities.forEach(it -> it.setDiffScore((int)new DifferenceAggregator().calcDiff(city, it)));
+        for (SimilarCity simCity : similarCities) {
+            BigDecimal diff = new DifferenceAggregator().calcDiff(city, simCity);
+            simCity.setDiffScore(diff);
+        }
+//        similarCities.forEach(it -> it.setDiffScore(new DifferenceAggregator().calcDiff(city, it).multiply(hundred).intValue()));
         return similarCities.stream().sorted(Comparator.comparing(SimilarCity::getDiff))
                 .collect(Collectors.toList());
     }

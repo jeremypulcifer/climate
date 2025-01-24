@@ -24,14 +24,16 @@ public class SimilarCityList {
     }
     public SimilarCityList() {}
     public List<SimilarCity> findSimilarCities(SimilarCity city, List<City> cities, Integer minPop, Integer maxPop) {
-        return cities.stream()
+        List<SimilarCity> simCities = cities.stream()
                 .filter(incompleteCityFilter::filterIncompleteCity)
                 .filter(it -> populationFilter.filterPopulation(it, minPop, maxPop))
                 .map(SimilarCity::new)
                 .filter(incompleteCityFilter::filterIncompleteSimilarCity)
                 .filter(it -> similarClimateFilter.filterOnlySimilarClimates(it, city))
-                .filter(it -> !it.getCityId().equals(city.getCityId()))
+//                .filter(it -> !it.getCityId().equals(city.getCityId()))
                 .collect(Collectors.toList());
+        simCities.add(city);
+        return simCities;
     }
 
     public List<SimilarCity> findAllCities(List<City> cities) {
