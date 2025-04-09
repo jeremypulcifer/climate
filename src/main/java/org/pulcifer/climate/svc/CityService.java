@@ -29,34 +29,9 @@ public class CityService {
         return new CitySorter().dontSort(repo.findAll());
     }
     public List<SimilarCity> retrieveSimilarCities(Similarity similarity) {
-        return new CitySorter(similarity.similarityMultiplier)
-                .sortCitiesByClimateDifferences(
+        return new CitySorter()
+                .sortCitiesByClimateRankings(
                         new SimilarCity(repo.findByCityId(similarity.cityId).get())
-                        , repo.findAll(), similarity.minPop, similarity.maxPop);
-    }
-
-    private City getCity(Integer cityId) {
-        Optional<City> existing = repo.findByCityId(cityId);
-        if (existing.isEmpty()) throw new RuntimeException("City not found");
-        do {
-            if (existing.isPresent()) {
-                return existing.get();
-            }
-            try {
-                Thread.sleep(10);
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                return null;
-            }
-        } while (true);
-    }
-
-    public City setTemperatureRange(Integer cityId) {
-        City city = getCity(cityId);
-        SimilarCity simCity = new SimilarCity(city);
-        BigDecimal highestTemperature = simCity.getHighestTemperature();
-        City.Range temperatureRange = City.Range.getTemperatureRange(highestTemperature);
-        city.setRange(temperatureRange);
-        return city;
+                        , repo.findAll(), similarity.minPop, similarity.maxPop, similarity.returnCount);
     }
 }

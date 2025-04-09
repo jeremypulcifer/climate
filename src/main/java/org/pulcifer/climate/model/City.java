@@ -20,8 +20,8 @@ public class City {
     private String lang;
     private String cityName;
     private String country;
-    private BigDecimal cityLatitude;
-    private BigDecimal cityLongitude;
+    private String cityLatitude;
+    private String cityLongitude;
     private Integer cityId;
     private Boolean isCapital;
     private String stationName;
@@ -70,8 +70,8 @@ public class City {
     public String getLang() {return this.lang;}
     public String getCityName() {return this.cityName;}
     public String getCountry() {return this.country;}
-    public BigDecimal getCityLatitude() {return this.cityLatitude;}
-    public BigDecimal getCityLongitude() {return this.cityLongitude;}
+    public String getCityLatitude() {return this.cityLatitude;}
+    public String getCityLongitude() {return this.cityLongitude;}
     public Integer getCityId() {return this.cityId;}
     public Boolean getIsCapital() {return this.isCapital;}
     public String getStationName() {return this.stationName;}

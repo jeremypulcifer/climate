@@ -1,0 +1,30 @@
+{
+  "cityName":"AAA",
+  "cityId":333,
+  "population": 10000,
+  "climate":{
+    "climateMonth":[
+      {
+        "month":1,
+        "maxTempF":"40.0",
+        "minTempF":"35.0",
+        "raindays":"10",
+        "rainfall":"100"
+      },
+      {
+        "month":2,
+        "maxTempF":"50.0",
+        "minTempF":"45.0",
+        "raindays":"10",
+        "rainfall":"100"
+      },
+      {
+        "month":3,
+        "maxTempF":"60.0",
+        "minTempF":"55.0",
+        "raindays":"10",
+        "rainfall":"100"
+      }
+    ]
+  }
+}

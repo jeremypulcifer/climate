@@ -6,5 +6,5 @@ public class Similarity {
     public Integer cityId;
     public Integer minPop;
     public Integer maxPop;
-    public BigDecimal similarityMultiplier;
+    public Integer returnCount;
 }
